@@ -1,0 +1,3957 @@
+{
+  "model": "stochastic semi-Markov campaign, logistics and national-endurance model",
+  "warning": "Historical counterfactual stress test, not an observed forecast. Casualty outputs are conditional model ranges.",
+  "historical_anchors": {
+    "olympic_x_day": "1945-11-01",
+    "planned_initial_assault_ground_force": 582500,
+    "planned_total_us_force_on_kyushu": 766700,
+    "japanese_strength_on_kyushu_by_surrender": "over 900000",
+    "planned_allied_vessels": 3033,
+    "overseas_japanese_forces": "several million across China, Manchuria, Korea, Southeast Asia and Pacific garrisons",
+    "atomic_policy": "additional weapons require renewed presidential authorization",
+    "defense_geography": "seven Ketsugo operational zones and eight regional civil governorates are modeled separately"
+  },
+  "results": [
+    {
+      "scenario": "olympic_planning_median",
+      "trajectories": 60000,
+      "weeks": 78,
+      "condition": "Japan has not surrendered before the Olympic decision point",
+      "outcome_distribution": {
+        "coordinated_central_surrender": 0.47365,
+        "central_surrender_with_fragmented_resistance": 0.21705,
+        "conditional_settlement": 0.15668333333333334,
+        "allied_operational_pause": 0.09125,
+        "humanitarian_collapse": 0.0086,
+        "coalition_war_continues_at_78_weeks": 0.05276666666666667
+      },
+      "terminal_week": {
+        "p10": 13.0,
+        "median": 36.0,
+        "p90": 69.0,
+        "mean": 38.20198333333333
+      },
+      "allied_kia_thousands": {
+        "p10": 26.144551946767447,
+        "median": 35.56004968170202,
+        "p90": 56.87100820700656,
+        "mean": 38.93644943319963
+      },
+      "allied_total_casualties_thousands": {
+        "p10": 111.25491833409306,
+        "median": 151.0715413153847,
+        "p90": 239.7827392059658,
+        "mean": 164.89039789459466
+      },
+      "japanese_military_dead_thousands": {
+        "p10": 289.4287981826968,
+        "median": 335.31690479735124,
+        "p90": 505.8374295380196,
+        "mean": 370.7509828555902
+      },
+      "japanese_civilian_dead_thousands": {
+        "p10": 147.48353330050477,
+        "median": 182.7250561195932,
+        "p90": 324.25716713922606,
+        "mean": 212.79511916120808
+      },
+      "southern_kyushu_fronts_secured_share": {
+        "p10": 1.0,
+        "median": 1.0,
+        "p90": 1.0,
+        "mean": 1.0
+      },
+      "food_index": {
+        "p10": 0.09852922352269641,
+        "median": 0.31878859551134525,
+        "p90": 0.4604048254709558,
+        "mean": 0.30006087064473813
+      },
+      "shipping_damage_index": {
+        "p10": 0.011350901637899004,
+        "median": 0.016152923826603986,
+        "p90": 0.021924595888615298,
+        "mean": 0.016447698739073546
+      },
+      "suicide_air_stock_remaining": {
+        "p10": 0.2793720389415463,
+        "median": 0.4666199144761417,
+        "p90": 0.6629986075940902,
+        "mean": 0.4692698773903053
+      },
+      "suicide_sea_stock_remaining": {
+        "p10": 0.11909503005367286,
+        "median": 0.336253307836134,
+        "p90": 0.5679796954828836,
+        "mean": 0.34218708906480355
+      },
+      "combined_fleet_stock_remaining": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 0.056312256006890646,
+        "mean": 0.016719607666468767
+      },
+      "naval_fuel_remaining": {
+        "p10": 0.08532826958071188,
+        "median": 0.13953982057245012,
+        "p90": 0.18819400880708165,
+        "mean": 0.1377509699909807
+      },
+      "additional_atomic_strikes": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 2.0,
+        "mean": 0.45585
+      },
+      "atomic_civilian_dead_thousands": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 150.3974237912554,
+        "mean": 34.312951325472966
+      },
+      "conventional_bombing_civilian_dead_thousands": {
+        "p10": 5.363306513392102,
+        "median": 15.559136771139688,
+        "p90": 31.046786964818374,
+        "mean": 16.817302222651907
+      },
+      "effective_civilian_defense_thousands": {
+        "p10": 3.708704571523874,
+        "median": 33.85933421437866,
+        "p90": 57.95200628335054,
+        "mean": 32.95124867857838
+      },
+      "china_manchuria_force_remaining_thousands": {
+        "p10": 919.5210608346233,
+        "median": 1373.7671805921113,
+        "p90": 1782.1440895033895,
+        "mean": 1364.538935680732
+      },
+      "pacific_seasia_force_remaining_thousands": {
+        "p10": 716.0510171406922,
+        "median": 952.5155246549807,
+        "p90": 1183.5035424729804,
+        "mean": 952.6351917992268
+      },
+      "coronet_launched_share": 0.5332,
+      "coronet_progress": {
+        "p10": 0.0,
+        "median": 0.03768803316182743,
+        "p90": 0.5278156677700104,
+        "mean": 0.1664750144564349
+      },
+      "soviet_hokkaido_entry_share": 0.015166666666666667,
+      "nationalist_pressure": {
+        "p10": 0.3466031085787143,
+        "median": 0.4538410534686057,
+        "p90": 0.5883012904875013,
+        "mean": 0.46145310557479197
+      },
+      "communist_pressure": {
+        "p10": 0.2819722135522058,
+        "median": 0.3858952121413211,
+        "p90": 0.5091369811511923,
+        "mean": 0.39147940249821284
+      },
+      "chinese_factional_friction": {
+        "p10": 0.2908851471325084,
+        "median": 0.4199682361874332,
+        "p90": 0.5504908256808908,
+        "mean": 0.4201706736767007
+      },
+      "soviet_operational_pressure": {
+        "p10": 0.7339868668686662,
+        "median": 0.8382844688416323,
+        "p90": 0.9494435564206154,
+        "mean": 0.8382304812950818
+      },
+      "commonwealth_pressure": {
+        "p10": 0.5336893252570207,
+        "median": 0.638032886597159,
+        "p90": 0.7636445583458672,
+        "mean": 0.6438196709222852
+      },
+      "regional_damage_median": {
+        "Hokkaido": 0.16033894355888229,
+        "Tohoku": 0.2709894274615007,
+        "Kanto_Shinetu": 0.742535776417717,
+        "Tokai_Hokuriku": 0.5762268070885539,
+        "Kinki": 0.6873548925343604,
+        "Chugoku": 0.44638354362794375,
+        "Shikoku": 0.2941778896544797,
+        "Kyushu": 0.5610187809117584
+      },
+      "pre_x_regional_damage_median": {
+        "Hokkaido": 0.13991855305247675,
+        "Tohoku": 0.239866552488893,
+        "Kanto_Shinetu": 0.529685998400874,
+        "Tokai_Hokuriku": 0.4800684657764064,
+        "Kinki": 0.5499360386031282,
+        "Chugoku": 0.4097593259660902,
+        "Shikoku": 0.28003495301949755,
+        "Kyushu": 0.3897291087675505
+      },
+      "regional_transport_median": {
+        "Hokkaido": 0.6507988019549231,
+        "Tohoku": 0.6028049333666108,
+        "Kanto_Shinetu": 0.4639425335273136,
+        "Tokai_Hokuriku": 0.4877535539195172,
+        "Kinki": 0.4540100100093729,
+        "Chugoku": 0.5214726661395221,
+        "Shikoku": 0.5839742675682813,
+        "Kyushu": 0.531221191175155
+      },
+      "regional_food_median": {
+        "Hokkaido": 0.38099173241576223,
+        "Tohoku": 0.3615682909798429,
+        "Kanto_Shinetu": 0.2993041479828902,
+        "Tokai_Hokuriku": 0.31350717750007,
+        "Kinki": 0.29769015488727996,
+        "Chugoku": 0.3294287465654906,
+        "Shikoku": 0.3547720223375841,
+        "Kyushu": 0.32510297655235576
+      },
+      "regional_governance_median": {
+        "Hokkaido": 0.7759197864278933,
+        "Tohoku": 0.7432622223549382,
+        "Kanto_Shinetu": 0.6127741693026456,
+        "Tokai_Hokuriku": 0.6607844868704984,
+        "Kinki": 0.6344059550440965,
+        "Chugoku": 0.6878583148051989,
+        "Shikoku": 0.7320232940292607,
+        "Kyushu": 0.6015731443127184
+      },
+      "occupied_infrastructure_damage_median": {
+        "China_Manchuria": 0.008215374471342702,
+        "Taiwan": 0.040883761529488145,
+        "Korea": 0.040864007156105484,
+        "Southeast_Asia": 0.005254471937231608,
+        "Pacific_Islands": 0.03754485720261666
+      },
+      "occupied_civilian_dead_thousands": {
+        "China_Manchuria": {
+          "p10": 0.00042009275726599243,
+          "median": 0.005509272273740406,
+          "p90": 0.021246996839723836,
+          "mean": 0.008451487673341175
+        },
+        "Taiwan": {
+          "p10": 0.0020651255871339327,
+          "median": 0.006670878356811647,
+          "p90": 0.015455922677102968,
+          "mean": 0.007854562299933018
+        },
+        "Korea": {
+          "p10": 0.003830470790231349,
+          "median": 0.012015031442224553,
+          "p90": 0.027708305121196725,
+          "mean": 0.01414402319376897
+        },
+        "Southeast_Asia": {
+          "p10": -0.00020075183552631195,
+          "median": 0.002598426286856317,
+          "p90": 0.011350471527114906,
+          "mean": 0.004254518187730789
+        },
+        "Pacific_Islands": {
+          "p10": 0.0009344850028091627,
+          "median": 0.0030648012065073132,
+          "p90": 0.007111667288634671,
+          "mean": 0.0036153161274804706
+        }
+      },
+      "history": [
+        {
+          "week": 1,
+          "active_share": 1.0,
+          "mean_control": 0.033817393919361595,
+          "median_allied_casualties_thousands": 6.516395947821885,
+          "median_japanese_military_dead_thousands": 13.969825743338662,
+          "median_japanese_civilian_dead_thousands": 3.0857152115919906,
+          "median_food_index": 0.5181506062801242,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 0.38409238128018725,
+          "median_china_manchuria_force_thousands": 1980.1495087653561,
+          "median_pacific_seasia_force_thousands": 1242.2632496796757,
+          "median_effective_civilian_defense_thousands": 64.23739855692762,
+          "median_suicide_air_stock": 0.93064595607337,
+          "median_suicide_sea_stock": 0.7885640583538649,
+          "median_combined_fleet_stock": 0.16494798562107654,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.3700743367730108,
+          "median_communist_pressure": 0.3097598521452888,
+          "median_regional_damage": {
+            "Hokkaido": 0.14039351807430295,
+            "Tohoku": 0.24062673398211532,
+            "Kanto_Shinetu": 0.533825667290565,
+            "Tokai_Hokuriku": 0.48239600843951314,
+            "Kinki": 0.5532981095644541,
+            "Chugoku": 0.41065873903166994,
+            "Shikoku": 0.2803626978830953,
+            "Kyushu": 0.3947983453223818
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 1.2787399160047078e-05,
+            "Taiwan": 0.001017785261575783,
+            "Korea": 0.0010909454033011254,
+            "Southeast_Asia": 7.1188926401454425e-06,
+            "Pacific_Islands": 0.0009698234915327102
+          }
+        },
+        {
+          "week": 4,
+          "active_share": 1.0,
+          "mean_control": 0.1417456692241276,
+          "median_allied_casualties_thousands": 25.782404670953788,
+          "median_japanese_military_dead_thousands": 56.03878537406885,
+          "median_japanese_civilian_dead_thousands": 14.377605107273467,
+          "median_food_index": 0.5071868730686218,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 1.5744271256117175,
+          "median_china_manchuria_force_thousands": 1921.5556587045405,
+          "median_pacific_seasia_force_thousands": 1216.9464357796528,
+          "median_effective_civilian_defense_thousands": 62.47243072973409,
+          "median_suicide_air_stock": 0.7688464368323434,
+          "median_suicide_sea_stock": 0.6604159659804906,
+          "median_combined_fleet_stock": 0.09115135623701613,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.37084873701076493,
+          "median_communist_pressure": 0.3103864739061608,
+          "median_regional_damage": {
+            "Hokkaido": 0.1418398740412568,
+            "Tohoku": 0.242865754640832,
+            "Kanto_Shinetu": 0.5466586859136855,
+            "Tokai_Hokuriku": 0.4895045131835142,
+            "Kinki": 0.5634407336594118,
+            "Chugoku": 0.41332444874446705,
+            "Shikoku": 0.28139277126465545,
+            "Kyushu": 0.4160419177757064
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.00013064797615989886,
+            "Taiwan": 0.004228483455033321,
+            "Korea": 0.004480146079118717,
+            "Southeast_Asia": 7.645924755853036e-05,
+            "Pacific_Islands": 0.004022657823766747
+          }
+        },
+        {
+          "week": 8,
+          "active_share": 0.9574166666666667,
+          "mean_control": 0.3021453943185064,
+          "median_allied_casualties_thousands": 50.386009959368884,
+          "median_japanese_military_dead_thousands": 112.28045269169344,
+          "median_japanese_civilian_dead_thousands": 29.546972975651748,
+          "median_food_index": 0.4881174686078849,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 3.1902947979180407,
+          "median_china_manchuria_force_thousands": 1847.1127519146994,
+          "median_pacific_seasia_force_thousands": 1183.9616494428897,
+          "median_effective_civilian_defense_thousands": 59.71705438746994,
+          "median_suicide_air_stock": 0.6347448067851591,
+          "median_suicide_sea_stock": 0.5413648895277913,
+          "median_combined_fleet_stock": 0.03932350642065378,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.37355813260213927,
+          "median_communist_pressure": 0.3127063714816627,
+          "median_regional_damage": {
+            "Hokkaido": 0.1437386085326771,
+            "Tohoku": 0.24588218637128612,
+            "Kanto_Shinetu": 0.5638351406946499,
+            "Tokai_Hokuriku": 0.4990169063304104,
+            "Kinki": 0.5770648012011589,
+            "Chugoku": 0.4168929962249226,
+            "Shikoku": 0.28276597791473124,
+            "Kyushu": 0.44441677301703447
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0004611102327794398,
+            "Taiwan": 0.008571183705999321,
+            "Korea": 0.008981966452178886,
+            "Southeast_Asia": 0.00027998982145069123,
+            "Pacific_Islands": 0.008129300927511149
+          }
+        },
+        {
+          "week": 13,
+          "active_share": 0.89555,
+          "mean_control": 0.5301838564301589,
+          "median_allied_casualties_thousands": 79.21061435533082,
+          "median_japanese_military_dead_thousands": 182.4530843119668,
+          "median_japanese_civilian_dead_thousands": 48.56845352074767,
+          "median_food_index": 0.462400597310474,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 5.253001608784915,
+          "median_china_manchuria_force_thousands": 1761.5928122209875,
+          "median_pacific_seasia_force_thousands": 1145.1180486877615,
+          "median_effective_civilian_defense_thousands": 56.13717557992582,
+          "median_suicide_air_stock": 0.5458879482519716,
+          "median_suicide_sea_stock": 0.4503081173745487,
+          "median_combined_fleet_stock": 0.011470645907446207,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.379524369983111,
+          "median_communist_pressure": 0.31801998549297117,
+          "median_regional_damage": {
+            "Hokkaido": 0.1461453433750073,
+            "Tohoku": 0.24960465923087288,
+            "Kanto_Shinetu": 0.584692644444774,
+            "Tokai_Hokuriku": 0.5106044948340797,
+            "Kinki": 0.5936922901609248,
+            "Chugoku": 0.4211559333513558,
+            "Shikoku": 0.2844552161626453,
+            "Kyushu": 0.47973549853364417
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0011044688117461399,
+            "Taiwan": 0.013996175103563935,
+            "Korea": 0.014469087401865286,
+            "Southeast_Asia": 0.0006740165628264176,
+            "Pacific_Islands": 0.01318690700753473
+          }
+        },
+        {
+          "week": 26,
+          "active_share": 0.6693666666666667,
+          "mean_control": 0.985004176812703,
+          "median_allied_casualties_thousands": 130.11406940261372,
+          "median_japanese_military_dead_thousands": 306.7025779572099,
+          "median_japanese_civilian_dead_thousands": 89.76554899999083,
+          "median_food_index": 0.3894374026316797,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 10.704526218278232,
+          "median_china_manchuria_force_thousands": 1571.7752048004718,
+          "median_pacific_seasia_force_thousands": 1058.173600146422,
+          "median_effective_civilian_defense_thousands": 46.49990522632904,
+          "median_suicide_air_stock": 0.47658856226279966,
+          "median_suicide_sea_stock": 0.35845890928747637,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.2399,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.00515,
+          "median_nationalist_pressure": 0.40400850296361845,
+          "median_communist_pressure": 0.3401268776552131,
+          "median_regional_damage": {
+            "Hokkaido": 0.1516766399883097,
+            "Tohoku": 0.2580766025103493,
+            "Kanto_Shinetu": 0.6421376619150589,
+            "Tokai_Hokuriku": 0.5377859681051972,
+            "Kinki": 0.6330528737219827,
+            "Chugoku": 0.4311508970858079,
+            "Shikoku": 0.2883955111270549,
+            "Kyushu": 0.5416154254435761
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.003651756342681219,
+            "Taiwan": 0.027169891213059273,
+            "Korea": 0.027347642376740783,
+            "Southeast_Asia": 0.0021811879780365894,
+            "Pacific_Islands": 0.025086600373341466
+          }
+        },
+        {
+          "week": 39,
+          "active_share": 0.43446666666666667,
+          "mean_control": 0.996313963753906,
+          "median_allied_casualties_thousands": 141.07956675759652,
+          "median_japanese_military_dead_thousands": 321.77312933547273,
+          "median_japanese_civilian_dead_thousands": 116.23400635468087,
+          "median_food_index": 0.32679779458265995,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 15.330402219343144,
+          "median_china_manchuria_force_thousands": 1434.020820914041,
+          "median_pacific_seasia_force_thousands": 995.2472934562388,
+          "median_effective_civilian_defense_thousands": 38.56294123803292,
+          "median_suicide_air_stock": 0.4676908783400159,
+          "median_suicide_sea_stock": 0.3400017817048422,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.44408333333333333,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.009766666666666667,
+          "median_nationalist_pressure": 0.4313840200056351,
+          "median_communist_pressure": 0.36445083996059,
+          "median_regional_damage": {
+            "Hokkaido": 0.1557929448523816,
+            "Tohoku": 0.26426238496315735,
+            "Kanto_Shinetu": 0.7036624757993202,
+            "Tokai_Hokuriku": 0.5584791562965181,
+            "Kinki": 0.6638928497091928,
+            "Chugoku": 0.43865536795116145,
+            "Shikoku": 0.2911404301490803,
+            "Kyushu": 0.5516948120657776
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.006456577511277287,
+            "Taiwan": 0.0364013389395937,
+            "Korea": 0.03617554290716882,
+            "Southeast_Asia": 0.0038119381810114766,
+            "Pacific_Islands": 0.033090696315390904
+          }
+        },
+        {
+          "week": 52,
+          "active_share": 0.24746666666666667,
+          "mean_control": 0.9963335464334891,
+          "median_allied_casualties_thousands": 147.4988657732981,
+          "median_japanese_military_dead_thousands": 330.26918285911245,
+          "median_japanese_civilian_dead_thousands": 141.2586483380657,
+          "median_food_index": 0.31878859551134525,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 15.559136771139688,
+          "median_china_manchuria_force_thousands": 1376.8169200986954,
+          "median_pacific_seasia_force_thousands": 961.0991456568704,
+          "median_effective_civilian_defense_thousands": 34.25965658253789,
+          "median_suicide_air_stock": 0.46671112914080026,
+          "median_suicide_sea_stock": 0.3369215460760076,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.50925,
+          "median_coronet_progress": 0.015195591255510472,
+          "soviet_hokkaido_entry_share": 0.012633333333333333,
+          "median_nationalist_pressure": 0.4471335585247345,
+          "median_communist_pressure": 0.3790096542294581,
+          "median_regional_damage": {
+            "Hokkaido": 0.1582755666081641,
+            "Tohoku": 0.26810261076441744,
+            "Kanto_Shinetu": 0.7363487245577521,
+            "Tokai_Hokuriku": 0.5706448973510695,
+            "Kinki": 0.6819321857558517,
+            "Chugoku": 0.44317879635554125,
+            "Shikoku": 0.29278533743027657,
+            "Kyushu": 0.5572257973677824
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.007978419904539027,
+            "Taiwan": 0.04008684526764293,
+            "Korea": 0.03997518612851953,
+            "Southeast_Asia": 0.004892425431041494,
+            "Pacific_Islands": 0.03654736081039546
+          }
+        },
+        {
+          "week": 78,
+          "active_share": 0.05276666666666667,
+          "mean_control": 0.9963347235267349,
+          "median_allied_casualties_thousands": 151.0715413153847,
+          "median_japanese_military_dead_thousands": 335.31690479735124,
+          "median_japanese_civilian_dead_thousands": 182.7250561195932,
+          "median_food_index": 0.31878859551134525,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 15.559136771139688,
+          "median_china_manchuria_force_thousands": 1373.7671805921113,
+          "median_pacific_seasia_force_thousands": 952.5155246549807,
+          "median_effective_civilian_defense_thousands": 33.85933421437866,
+          "median_suicide_air_stock": 0.4666199144761417,
+          "median_suicide_sea_stock": 0.336253307836134,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.5332,
+          "median_coronet_progress": 0.03768803316182743,
+          "soviet_hokkaido_entry_share": 0.015166666666666667,
+          "median_nationalist_pressure": 0.4538410534686057,
+          "median_communist_pressure": 0.3858952121413211,
+          "median_regional_damage": {
+            "Hokkaido": 0.16033894355888229,
+            "Tohoku": 0.2709894274615007,
+            "Kanto_Shinetu": 0.742535776417717,
+            "Tokai_Hokuriku": 0.5762268070885539,
+            "Kinki": 0.6873548925343604,
+            "Chugoku": 0.44638354362794375,
+            "Shikoku": 0.2941778896544797,
+            "Kyushu": 0.5610187809117584
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.008215374471342702,
+            "Taiwan": 0.040883761529488145,
+            "Korea": 0.040864007156105484,
+            "Southeast_Asia": 0.005254471937231608,
+            "Pacific_Islands": 0.03754485720261666
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "ketsugo_high_concentration",
+      "trajectories": 60000,
+      "weeks": 78,
+      "condition": "Japan has not surrendered before the Olympic decision point",
+      "outcome_distribution": {
+        "coordinated_central_surrender": 0.3938333333333333,
+        "central_surrender_with_fragmented_resistance": 0.20621666666666666,
+        "conditional_settlement": 0.16873333333333335,
+        "allied_operational_pause": 0.16088333333333332,
+        "humanitarian_collapse": 0.009833333333333333,
+        "coalition_war_continues_at_78_weeks": 0.0605
+      },
+      "terminal_week": {
+        "p10": 13.0,
+        "median": 38.0,
+        "p90": 71.0,
+        "mean": 39.69988333333333
+      },
+      "allied_kia_thousands": {
+        "p10": 40.26636405107287,
+        "median": 53.981431338690015,
+        "p90": 75.80015505134153,
+        "mean": 56.23932935764209
+      },
+      "allied_total_casualties_thousands": {
+        "p10": 171.2603611823209,
+        "median": 229.30352907881363,
+        "p90": 320.4193337754178,
+        "mean": 238.54134612627647
+      },
+      "japanese_military_dead_thousands": {
+        "p10": 332.4668221298866,
+        "median": 385.6388222001532,
+        "p90": 535.6181210618516,
+        "mean": 411.4992705415836
+      },
+      "japanese_civilian_dead_thousands": {
+        "p10": 162.4871263641896,
+        "median": 196.86932615807584,
+        "p90": 344.639933212262,
+        "mean": 228.28838800875354
+      },
+      "southern_kyushu_fronts_secured_share": {
+        "p10": 1.0,
+        "median": 1.0,
+        "p90": 1.0,
+        "mean": 0.9996611111111111
+      },
+      "food_index": {
+        "p10": 0.08345559487181374,
+        "median": 0.3063631297202667,
+        "p90": 0.45821887559414676,
+        "mean": 0.29027467984153726
+      },
+      "shipping_damage_index": {
+        "p10": 0.01564685802247794,
+        "median": 0.02215455177998268,
+        "p90": 0.029944360463701854,
+        "mean": 0.022546221952093565
+      },
+      "suicide_air_stock_remaining": {
+        "p10": 0.5086762427559293,
+        "median": 0.7460396006959099,
+        "p90": 0.9896181090743805,
+        "mean": 0.7480277804286121
+      },
+      "suicide_sea_stock_remaining": {
+        "p10": 0.29814115861924323,
+        "median": 0.5734839668862364,
+        "p90": 0.8538761271825492,
+        "mean": 0.5755579428511043
+      },
+      "combined_fleet_stock_remaining": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 0.05653477282371025,
+        "mean": 0.016676998832585384
+      },
+      "naval_fuel_remaining": {
+        "p10": 0.08469398981020364,
+        "median": 0.13922155410884243,
+        "p90": 0.18795825202892008,
+        "mean": 0.1373620338202085
+      },
+      "additional_atomic_strikes": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 2.0,
+        "mean": 0.47655
+      },
+      "atomic_civilian_dead_thousands": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 156.55507511627115,
+        "mean": 35.74684936126899
+      },
+      "conventional_bombing_civilian_dead_thousands": {
+        "p10": 5.450852158101154,
+        "median": 16.37540979895519,
+        "p90": 31.97540866773247,
+        "mean": 17.459475815843057
+      },
+      "effective_civilian_defense_thousands": {
+        "p10": 3.2472853784060054,
+        "median": 47.51565067877197,
+        "p90": 81.7276206020787,
+        "mean": 45.98317562593479
+      },
+      "china_manchuria_force_remaining_thousands": {
+        "p10": 898.7047275128105,
+        "median": 1343.351396426472,
+        "p90": 1772.003731149138,
+        "mean": 1342.2628569211588
+      },
+      "pacific_seasia_force_remaining_thousands": {
+        "p10": 704.9437312008934,
+        "median": 938.0473634067998,
+        "p90": 1176.7391056062104,
+        "mean": 941.2544154937194
+      },
+      "coronet_launched_share": 0.48901666666666666,
+      "coronet_progress": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 0.5203773693984135,
+        "mean": 0.15772749953366524
+      },
+      "soviet_hokkaido_entry_share": 0.0153,
+      "nationalist_pressure": {
+        "p10": 0.3500652453628682,
+        "median": 0.4604684643657605,
+        "p90": 0.5952682054300802,
+        "mean": 0.46697352496735955
+      },
+      "communist_pressure": {
+        "p10": 0.28538891000552824,
+        "median": 0.39117247410912426,
+        "p90": 0.5151931224774001,
+        "mean": 0.39613370301379774
+      },
+      "chinese_factional_friction": {
+        "p10": 0.2907889694738119,
+        "median": 0.41921867642912863,
+        "p90": 0.54725960840825,
+        "mean": 0.4192921093463441
+      },
+      "soviet_operational_pressure": {
+        "p10": 0.7347425013644318,
+        "median": 0.8417603420582123,
+        "p90": 0.9534311535677903,
+        "mean": 0.8413747443310782
+      },
+      "commonwealth_pressure": {
+        "p10": 0.5363022535800842,
+        "median": 0.6435502593629184,
+        "p90": 0.7702061809361257,
+        "mean": 0.6487744922686155
+      },
+      "regional_damage_median": {
+        "Hokkaido": 0.1611299231315081,
+        "Tohoku": 0.27218821813230354,
+        "Kanto_Shinetu": 0.7425658087360726,
+        "Tokai_Hokuriku": 0.5812898924337313,
+        "Kinki": 0.6941970518333203,
+        "Chugoku": 0.4479645066654437,
+        "Shikoku": 0.29456540392855257,
+        "Kyushu": 0.5918225505001908
+      },
+      "pre_x_regional_damage_median": {
+        "Hokkaido": 0.14009996467840113,
+        "Tohoku": 0.23975130486161939,
+        "Kanto_Shinetu": 0.5302098895679628,
+        "Tokai_Hokuriku": 0.4802429389103666,
+        "Kinki": 0.5503042241018319,
+        "Chugoku": 0.4099621946850507,
+        "Shikoku": 0.27980705134134476,
+        "Kyushu": 0.38976306279052014
+      },
+      "regional_transport_median": {
+        "Hokkaido": 0.6472563353264107,
+        "Tohoku": 0.5995242667237646,
+        "Kanto_Shinetu": 0.4608200808121057,
+        "Tokai_Hokuriku": 0.4845640728810604,
+        "Kinki": 0.45070437149991255,
+        "Chugoku": 0.5182859586030222,
+        "Shikoku": 0.58035406852073,
+        "Kyushu": 0.5277068158860642
+      },
+      "regional_food_median": {
+        "Hokkaido": 0.36791302330558767,
+        "Tohoku": 0.34894103903528756,
+        "Kanto_Shinetu": 0.2870048152186282,
+        "Tokai_Hokuriku": 0.3013402752953348,
+        "Kinki": 0.2855471945138858,
+        "Chugoku": 0.31742389755300904,
+        "Shikoku": 0.34266836194326655,
+        "Kyushu": 0.31173671318339613
+      },
+      "regional_governance_median": {
+        "Hokkaido": 0.7728158249743966,
+        "Tohoku": 0.7398954619618315,
+        "Kanto_Shinetu": 0.6120954373074672,
+        "Tokai_Hokuriku": 0.6546963870875172,
+        "Kinki": 0.6280062235993298,
+        "Chugoku": 0.6832140109996604,
+        "Shikoku": 0.7281549628907339,
+        "Kyushu": 0.5772085409276493
+      },
+      "occupied_infrastructure_damage_median": {
+        "China_Manchuria": 0.010362970134427666,
+        "Taiwan": 0.04964074404064394,
+        "Korea": 0.049466802035101405,
+        "Southeast_Asia": 0.006742122740534212,
+        "Pacific_Islands": 0.0452151840235865
+      },
+      "occupied_civilian_dead_thousands": {
+        "China_Manchuria": {
+          "p10": 0.0005460529728676015,
+          "median": 0.006969857033479391,
+          "p90": 0.02551006836956351,
+          "mean": 0.01034128211953975
+        },
+        "Taiwan": {
+          "p10": 0.002445740059277592,
+          "median": 0.008097048604600898,
+          "p90": 0.01827842316679475,
+          "mean": 0.009378388539794193
+        },
+        "Korea": {
+          "p10": 0.004540785550014035,
+          "median": 0.014529038417398409,
+          "p90": 0.032820665647554696,
+          "mean": 0.01688262002981713
+        },
+        "Southeast_Asia": {
+          "p10": -0.000175664017538412,
+          "median": 0.0033405906133108687,
+          "p90": 0.013746036451083663,
+          "mean": 0.00523473522709313
+        },
+        "Pacific_Islands": {
+          "p10": 0.0010994229256607367,
+          "median": 0.003687165234935676,
+          "p90": 0.008445362598114816,
+          "mean": 0.004307897590909164
+        }
+      },
+      "history": [
+        {
+          "week": 1,
+          "active_share": 1.0,
+          "mean_control": 0.025187886973767497,
+          "median_allied_casualties_thousands": 8.68022641356834,
+          "median_japanese_military_dead_thousands": 13.487763338195034,
+          "median_japanese_civilian_dead_thousands": 2.463322733701502,
+          "median_food_index": 0.5183046999981024,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 0.38488548651950666,
+          "median_china_manchuria_force_thousands": 1979.3845592308771,
+          "median_pacific_seasia_force_thousands": 1241.54368510942,
+          "median_effective_civilian_defense_thousands": 89.3650580780174,
+          "median_suicide_air_stock": 1.2102589812537992,
+          "median_suicide_sea_stock": 1.0260779654349887,
+          "median_combined_fleet_stock": 0.1648881184410436,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.3702584860626048,
+          "median_communist_pressure": 0.3095429602941162,
+          "median_regional_damage": {
+            "Hokkaido": 0.14054900029576123,
+            "Tohoku": 0.24052366812924036,
+            "Kanto_Shinetu": 0.534496132228818,
+            "Tokai_Hokuriku": 0.48261378660887067,
+            "Kinki": 0.5536682596649407,
+            "Chugoku": 0.4107863784152131,
+            "Shikoku": 0.2801469067231963,
+            "Kyushu": 0.39230895464793514
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 1.5009253967146571e-05,
+            "Taiwan": 0.0011754591485157906,
+            "Korea": 0.0012573098803948912,
+            "Southeast_Asia": 8.63951997001876e-06,
+            "Pacific_Islands": 0.0011150999401158303
+          }
+        },
+        {
+          "week": 4,
+          "active_share": 1.0,
+          "mean_control": 0.10587051368603087,
+          "median_allied_casualties_thousands": 34.38444700306515,
+          "median_japanese_military_dead_thousands": 54.12247915494835,
+          "median_japanese_civilian_dead_thousands": 14.21408609157194,
+          "median_food_index": 0.5069624773814385,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 1.574395717822358,
+          "median_china_manchuria_force_thousands": 1920.9747045935103,
+          "median_pacific_seasia_force_thousands": 1216.345889057288,
+          "median_effective_civilian_defense_thousands": 87.32610266125857,
+          "median_suicide_air_stock": 1.0484594620127727,
+          "median_suicide_sea_stock": 0.8979298730616146,
+          "median_combined_fleet_stock": 0.09109148905698318,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.37097384335907624,
+          "median_communist_pressure": 0.3103169372675909,
+          "median_regional_damage": {
+            "Hokkaido": 0.14197799778058795,
+            "Tohoku": 0.2427303803294985,
+            "Kanto_Shinetu": 0.5473185143864925,
+            "Tokai_Hokuriku": 0.48983780887391865,
+            "Kinki": 0.5637923390940371,
+            "Chugoku": 0.413422385778776,
+            "Shikoku": 0.2811526531496542,
+            "Kyushu": 0.41313392707363694
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.00014996156098430046,
+            "Taiwan": 0.004883858784753755,
+            "Korea": 0.00518856825558262,
+            "Southeast_Asia": 8.971726891561412e-05,
+            "Pacific_Islands": 0.004631752612809669
+          }
+        },
+        {
+          "week": 8,
+          "active_share": 0.9567833333333333,
+          "mean_control": 0.22768160413127675,
+          "median_allied_casualties_thousands": 67.35732293035532,
+          "median_japanese_military_dead_thousands": 108.57767296650002,
+          "median_japanese_civilian_dead_thousands": 30.046186878938638,
+          "median_food_index": 0.48786351018742846,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 3.186219989816217,
+          "median_china_manchuria_force_thousands": 1846.7310490318275,
+          "median_pacific_seasia_force_thousands": 1183.5685690793578,
+          "median_effective_civilian_defense_thousands": 83.99753211891093,
+          "median_suicide_air_stock": 0.9144176749741679,
+          "median_suicide_sea_stock": 0.7786762367925305,
+          "median_combined_fleet_stock": 0.039180515105552545,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.3737012360271066,
+          "median_communist_pressure": 0.3126676672507246,
+          "median_regional_damage": {
+            "Hokkaido": 0.14388883191984425,
+            "Tohoku": 0.2457514553940946,
+            "Kanto_Shinetu": 0.5643828250293468,
+            "Tokai_Hokuriku": 0.49930642606125486,
+            "Kinki": 0.5773102134670454,
+            "Chugoku": 0.4169277616149911,
+            "Shikoku": 0.28250515234597184,
+            "Kyushu": 0.4414867278201777
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0005302472077083795,
+            "Taiwan": 0.009896512522355494,
+            "Korea": 0.010391444911691326,
+            "Southeast_Asia": 0.0003244003992656126,
+            "Pacific_Islands": 0.00935175297438437
+          }
+        },
+        {
+          "week": 13,
+          "active_share": 0.8996666666666666,
+          "mean_control": 0.40639271256603426,
+          "median_allied_casualties_thousands": 106.24316016528739,
+          "median_japanese_military_dead_thousands": 176.87011580722685,
+          "median_japanese_civilian_dead_thousands": 49.87611950191735,
+          "median_food_index": 0.46216488118527066,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 5.244030225466254,
+          "median_china_manchuria_force_thousands": 1761.5589375413692,
+          "median_pacific_seasia_force_thousands": 1144.6934089796523,
+          "median_effective_civilian_defense_thousands": 79.4995992900499,
+          "median_suicide_air_stock": 0.8256060053130663,
+          "median_suicide_sea_stock": 0.6881137471144442,
+          "median_combined_fleet_stock": 0.011465400028700726,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.3794845897293011,
+          "median_communist_pressure": 0.3180111296464509,
+          "median_regional_damage": {
+            "Hokkaido": 0.14619273730326343,
+            "Tohoku": 0.24943124029490776,
+            "Kanto_Shinetu": 0.585085304324686,
+            "Tokai_Hokuriku": 0.510910821444581,
+            "Kinki": 0.5939976703306173,
+            "Chugoku": 0.4213450558379425,
+            "Shikoku": 0.2841998662160139,
+            "Kyushu": 0.4768659964892915
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.001267512926558937,
+            "Taiwan": 0.01614655305440325,
+            "Korea": 0.01671955303860338,
+            "Southeast_Asia": 0.0007819493884816199,
+            "Pacific_Islands": 0.015141986397966475
+          }
+        },
+        {
+          "week": 26,
+          "active_share": 0.6982,
+          "mean_control": 0.8966673418148904,
+          "median_allied_casualties_thousands": 186.98317295414455,
+          "median_japanese_military_dead_thousands": 327.4918912429446,
+          "median_japanese_civilian_dead_thousands": 98.14717231678614,
+          "median_food_index": 0.38846904242529967,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 10.710548474581481,
+          "median_china_manchuria_force_thousands": 1568.7096454897544,
+          "median_pacific_seasia_force_thousands": 1056.3266220048472,
+          "median_effective_civilian_defense_thousands": 66.78630714254479,
+          "median_suicide_air_stock": 0.75622164952561,
+          "median_suicide_sea_stock": 0.5963214572196098,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.10613333333333333,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.004683333333333334,
+          "median_nationalist_pressure": 0.4048634928227858,
+          "median_communist_pressure": 0.34066295743773434,
+          "median_regional_damage": {
+            "Hokkaido": 0.1518080944905119,
+            "Tohoku": 0.25807379010488485,
+            "Kanto_Shinetu": 0.6380682292001532,
+            "Tokai_Hokuriku": 0.5384819113913271,
+            "Kinki": 0.6340074553241202,
+            "Chugoku": 0.4315664626457568,
+            "Shikoku": 0.28821706891113247,
+            "Kyushu": 0.5569521686999368
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.004249561945067369,
+            "Taiwan": 0.031629299821017504,
+            "Korea": 0.03184332299071842,
+            "Southeast_Asia": 0.00255867276384814,
+            "Pacific_Islands": 0.029154256554776742
+          }
+        },
+        {
+          "week": 39,
+          "active_share": 0.4684833333333333,
+          "mean_control": 0.9893473309319922,
+          "median_allied_casualties_thousands": 213.92096244626677,
+          "median_japanese_military_dead_thousands": 367.4461715660062,
+          "median_japanese_civilian_dead_thousands": 129.30134105494784,
+          "median_food_index": 0.32152869967406134,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 15.690929154631789,
+          "median_china_manchuria_force_thousands": 1421.0977901486503,
+          "median_pacific_seasia_force_thousands": 989.1970132682588,
+          "median_effective_civilian_defense_thousands": 55.717291335301496,
+          "median_suicide_air_stock": 0.7472761831996971,
+          "median_suicide_sea_stock": 0.5775167257426754,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.3660333333333333,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0097,
+          "median_nationalist_pressure": 0.43383239222759695,
+          "median_communist_pressure": 0.3668475167409406,
+          "median_regional_damage": {
+            "Hokkaido": 0.1560230468123044,
+            "Tohoku": 0.2648101011416236,
+            "Kanto_Shinetu": 0.6973942205810658,
+            "Tokai_Hokuriku": 0.56057413319296,
+            "Kinki": 0.6663378555609816,
+            "Chugoku": 0.4393188879284817,
+            "Shikoku": 0.29127888690053216,
+            "Kyushu": 0.5798273764411377
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0077264461627650225,
+            "Taiwan": 0.04329245423925508,
+            "Korea": 0.04295863435014965,
+            "Southeast_Asia": 0.004642279934162146,
+            "Pacific_Islands": 0.039143354550493656
+          }
+        },
+        {
+          "week": 52,
+          "active_share": 0.2745666666666667,
+          "mean_control": 0.9949627153909888,
+          "median_allied_casualties_thousands": 223.76343650474445,
+          "median_japanese_military_dead_thousands": 379.49850119349253,
+          "median_japanese_civilian_dead_thousands": 154.79492852720557,
+          "median_food_index": 0.3063631297202667,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 16.37540979895519,
+          "median_china_manchuria_force_thousands": 1349.4316709665436,
+          "median_pacific_seasia_force_thousands": 950.7257635542787,
+          "median_effective_civilian_defense_thousands": 48.56356116743077,
+          "median_suicide_air_stock": 0.7461356699482917,
+          "median_suicide_sea_stock": 0.5740868662459906,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.45468333333333333,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.012666666666666666,
+          "median_nationalist_pressure": 0.45192156016207635,
+          "median_communist_pressure": 0.38299749861016286,
+          "median_regional_damage": {
+            "Hokkaido": 0.15886506572972753,
+            "Tohoku": 0.2690450363582117,
+            "Kanto_Shinetu": 0.7344147454687551,
+            "Tokai_Hokuriku": 0.5744372155756396,
+            "Kinki": 0.6867905925644484,
+            "Chugoku": 0.44422846614941214,
+            "Shikoku": 0.29314632652307904,
+            "Kyushu": 0.5870229668235933
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.009916105221292425,
+            "Taiwan": 0.04841602536995413,
+            "Korea": 0.04809307001564711,
+            "Southeast_Asia": 0.006147581141406086,
+            "Pacific_Islands": 0.04370527492777295
+          }
+        },
+        {
+          "week": 78,
+          "active_share": 0.0605,
+          "mean_control": 0.9955347768041087,
+          "median_allied_casualties_thousands": 229.30352907881363,
+          "median_japanese_military_dead_thousands": 385.6388222001532,
+          "median_japanese_civilian_dead_thousands": 196.86932615807584,
+          "median_food_index": 0.3063631297202667,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 16.37540979895519,
+          "median_china_manchuria_force_thousands": 1343.351396426472,
+          "median_pacific_seasia_force_thousands": 938.0473634067998,
+          "median_effective_civilian_defense_thousands": 47.51565067877197,
+          "median_suicide_air_stock": 0.7460396006959099,
+          "median_suicide_sea_stock": 0.5734839668862364,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.48901666666666666,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0153,
+          "median_nationalist_pressure": 0.4604684643657605,
+          "median_communist_pressure": 0.39117247410912426,
+          "median_regional_damage": {
+            "Hokkaido": 0.1611299231315081,
+            "Tohoku": 0.27218821813230354,
+            "Kanto_Shinetu": 0.7425658087360726,
+            "Tokai_Hokuriku": 0.5812898924337313,
+            "Kinki": 0.6941970518333203,
+            "Chugoku": 0.4479645066654437,
+            "Shikoku": 0.29456540392855257,
+            "Kyushu": 0.5918225505001908
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.010362970134427666,
+            "Taiwan": 0.04964074404064394,
+            "Korea": 0.049466802035101405,
+            "Southeast_Asia": 0.006742122740534212,
+            "Pacific_Islands": 0.0452151840235865
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "allied_sealift_disrupted",
+      "trajectories": 60000,
+      "weeks": 78,
+      "condition": "Japan has not surrendered before the Olympic decision point",
+      "outcome_distribution": {
+        "coordinated_central_surrender": 0.39426666666666665,
+        "central_surrender_with_fragmented_resistance": 0.19656666666666667,
+        "conditional_settlement": 0.17326666666666668,
+        "allied_operational_pause": 0.16178333333333333,
+        "humanitarian_collapse": 0.009716666666666667,
+        "coalition_war_continues_at_78_weeks": 0.0644
+      },
+      "terminal_week": {
+        "p10": 14.0,
+        "median": 38.0,
+        "p90": 72.0,
+        "mean": 40.12071666666667
+      },
+      "allied_kia_thousands": {
+        "p10": 41.05690751323649,
+        "median": 55.31345142127793,
+        "p90": 78.33060857902828,
+        "mean": 57.738526656948636
+      },
+      "allied_total_casualties_thousands": {
+        "p10": 174.6819450353112,
+        "median": 235.04468062396197,
+        "p90": 331.3163825541862,
+        "mean": 244.98574754239408
+      },
+      "japanese_military_dead_thousands": {
+        "p10": 298.70921052483357,
+        "median": 346.2914554256338,
+        "p90": 469.55199898495334,
+        "mean": 365.55313290433946
+      },
+      "japanese_civilian_dead_thousands": {
+        "p10": 167.29630550834415,
+        "median": 200.5310967439276,
+        "p90": 351.9432905860891,
+        "mean": 232.60546469545758
+      },
+      "southern_kyushu_fronts_secured_share": {
+        "p10": 1.0,
+        "median": 1.0,
+        "p90": 1.0,
+        "mean": 0.9973277777777777
+      },
+      "food_index": {
+        "p10": 0.0928313732816484,
+        "median": 0.310246554098692,
+        "p90": 0.45975672297585735,
+        "mean": 0.294682479225002
+      },
+      "shipping_damage_index": {
+        "p10": 0.015027508725162269,
+        "median": 0.021289984384252995,
+        "p90": 0.02886245398133616,
+        "mean": 0.021705720573797747
+      },
+      "suicide_air_stock_remaining": {
+        "p10": 0.46154346091042175,
+        "median": 0.6853021482190287,
+        "p90": 0.9180854661214887,
+        "mean": 0.6880411681562739
+      },
+      "suicide_sea_stock_remaining": {
+        "p10": 0.2587678396289815,
+        "median": 0.5187130430729137,
+        "p90": 0.7867019981712535,
+        "mean": 0.5215651213765524
+      },
+      "combined_fleet_stock_remaining": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 0.05530731210457951,
+        "mean": 0.016382169547885916
+      },
+      "naval_fuel_remaining": {
+        "p10": 0.08483747939107562,
+        "median": 0.1389389498162943,
+        "p90": 0.18781930667786548,
+        "mean": 0.13729964114185975
+      },
+      "additional_atomic_strikes": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 2.0,
+        "mean": 0.47918333333333335
+      },
+      "atomic_civilian_dead_thousands": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 159.85684366868216,
+        "mean": 36.125889311753745
+      },
+      "conventional_bombing_civilian_dead_thousands": {
+        "p10": 5.317929712197334,
+        "median": 15.846020627140263,
+        "p90": 30.956071634555073,
+        "mean": 16.89076241038985
+      },
+      "effective_civilian_defense_thousands": {
+        "p10": 5.538114335360531,
+        "median": 41.58071612939967,
+        "p90": 71.51051974838819,
+        "mean": 40.53677941279066
+      },
+      "china_manchuria_force_remaining_thousands": {
+        "p10": 898.1020306871179,
+        "median": 1339.3951446402002,
+        "p90": 1766.1827334037855,
+        "mean": 1339.4845238551316
+      },
+      "pacific_seasia_force_remaining_thousands": {
+        "p10": 703.4587027953993,
+        "median": 935.6551523958967,
+        "p90": 1174.8272097515032,
+        "mean": 939.1757117100068
+      },
+      "coronet_launched_share": 0.42665,
+      "coronet_progress": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 0.39964357140403467,
+        "mean": 0.10894010450902047
+      },
+      "soviet_hokkaido_entry_share": 0.015266666666666666,
+      "nationalist_pressure": {
+        "p10": 0.34754425630440094,
+        "median": 0.4547907065820106,
+        "p90": 0.5814729309051917,
+        "mean": 0.4602060630588635
+      },
+      "communist_pressure": {
+        "p10": 0.2841890325519717,
+        "median": 0.38691268546250646,
+        "p90": 0.5042644822699296,
+        "mean": 0.39104105394354777
+      },
+      "chinese_factional_friction": {
+        "p10": 0.2909890562669392,
+        "median": 0.4195600051085055,
+        "p90": 0.5491029779417997,
+        "mean": 0.42005373441629745
+      },
+      "soviet_operational_pressure": {
+        "p10": 0.7347300424933615,
+        "median": 0.8382100465548608,
+        "p90": 0.9471772253543495,
+        "mean": 0.8380318564540932
+      },
+      "commonwealth_pressure": {
+        "p10": 0.534547647431185,
+        "median": 0.638145999146867,
+        "p90": 0.7564251877692365,
+        "mean": 0.6422868406522825
+      },
+      "regional_damage_median": {
+        "Hokkaido": 0.15994338805492703,
+        "Tohoku": 0.27155194891213086,
+        "Kanto_Shinetu": 0.7277524240030047,
+        "Tokai_Hokuriku": 0.5784917043827233,
+        "Kinki": 0.6895881715363333,
+        "Chugoku": 0.4469680740547535,
+        "Shikoku": 0.2944624758906243,
+        "Kyushu": 0.6108607785759885
+      },
+      "pre_x_regional_damage_median": {
+        "Hokkaido": 0.13966467666527144,
+        "Tohoku": 0.24018267618747394,
+        "Kanto_Shinetu": 0.5301587206363862,
+        "Tokai_Hokuriku": 0.4803515024413723,
+        "Kinki": 0.5498847561816036,
+        "Chugoku": 0.4102825595883097,
+        "Shikoku": 0.2801678754726541,
+        "Kyushu": 0.3898321785166239
+      },
+      "regional_transport_median": {
+        "Hokkaido": 0.6500986186853192,
+        "Tohoku": 0.601574998252653,
+        "Kanto_Shinetu": 0.4625079218895682,
+        "Tokai_Hokuriku": 0.48610120955173564,
+        "Kinki": 0.4529733507907084,
+        "Chugoku": 0.5199482132117641,
+        "Shikoku": 0.5823258495237584,
+        "Kyushu": 0.5296069289295597
+      },
+      "regional_food_median": {
+        "Hokkaido": 0.37130639325562875,
+        "Tohoku": 0.3524832123620669,
+        "Kanto_Shinetu": 0.2906797853748857,
+        "Tokai_Hokuriku": 0.3047682302349845,
+        "Kinki": 0.29000255925120355,
+        "Chugoku": 0.3212918258738762,
+        "Shikoku": 0.34630677103910235,
+        "Kyushu": 0.3145617537467191
+      },
+      "regional_governance_median": {
+        "Hokkaido": 0.7728667396774863,
+        "Tohoku": 0.7392072380548707,
+        "Kanto_Shinetu": 0.6173028448342038,
+        "Tokai_Hokuriku": 0.6534729475913016,
+        "Kinki": 0.6272987078386676,
+        "Chugoku": 0.6829374622575182,
+        "Shikoku": 0.7277594639425147,
+        "Kyushu": 0.5620559569245938
+      },
+      "occupied_infrastructure_damage_median": {
+        "China_Manchuria": 0.009844809305803597,
+        "Taiwan": 0.04670967618687914,
+        "Korea": 0.04654499221572968,
+        "Southeast_Asia": 0.006434753007349406,
+        "Pacific_Islands": 0.042503818818674356
+      },
+      "occupied_civilian_dead_thousands": {
+        "China_Manchuria": {
+          "p10": 0.0005382583594463959,
+          "median": 0.006606574920478023,
+          "p90": 0.024000603963019965,
+          "mean": 0.00977793392444481
+        },
+        "Taiwan": {
+          "p10": 0.0023257557256596032,
+          "median": 0.007621001270166437,
+          "p90": 0.017214476937184628,
+          "mean": 0.008853194365272557
+        },
+        "Korea": {
+          "p10": 0.004337158576627316,
+          "median": 0.013669536851796817,
+          "p90": 0.03091389398397696,
+          "mean": 0.015934160688040315
+        },
+        "Southeast_Asia": {
+          "p10": -0.00015781491975163847,
+          "median": 0.003189846117815982,
+          "p90": 0.013028647644255513,
+          "mean": 0.004981605301529794
+        },
+        "Pacific_Islands": {
+          "p10": 0.001049339922927141,
+          "median": 0.0034647057117820164,
+          "p90": 0.007901050205957376,
+          "mean": 0.004055418435092818
+        }
+      },
+      "history": [
+        {
+          "week": 1,
+          "active_share": 1.0,
+          "mean_control": 0.021950449527328844,
+          "median_allied_casualties_thousands": 8.25784911228418,
+          "median_japanese_military_dead_thousands": 11.095479421110124,
+          "median_japanese_civilian_dead_thousands": 2.1678706025751446,
+          "median_food_index": 0.518437333329748,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 0.36958690777721637,
+          "median_china_manchuria_force_thousands": 1980.593881144603,
+          "median_pacific_seasia_force_thousands": 1240.793567950108,
+          "median_effective_civilian_defense_thousands": 78.61496678148764,
+          "median_suicide_air_stock": 1.1510661352583802,
+          "median_suicide_sea_stock": 0.97315487042201,
+          "median_combined_fleet_stock": 0.16495834445670068,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.36986905176528606,
+          "median_communist_pressure": 0.31041358462561036,
+          "median_regional_damage": {
+            "Hokkaido": 0.14009876772967353,
+            "Tohoku": 0.240874087931739,
+            "Kanto_Shinetu": 0.5341936553948652,
+            "Tokai_Hokuriku": 0.48256445102683543,
+            "Kinki": 0.5530684059787869,
+            "Chugoku": 0.4111206443211707,
+            "Shikoku": 0.2804783594303684,
+            "Kyushu": 0.3916690579315062
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 1.3483997344061131e-05,
+            "Taiwan": 0.0010936431278569963,
+            "Korea": 0.001172145772180457,
+            "Southeast_Asia": 8.877797511914396e-06,
+            "Pacific_Islands": 0.001037061219916065
+          }
+        },
+        {
+          "week": 4,
+          "active_share": 1.0,
+          "mean_control": 0.09192393040946813,
+          "median_allied_casualties_thousands": 32.68589019236355,
+          "median_japanese_military_dead_thousands": 44.490620691416254,
+          "median_japanese_civilian_dead_thousands": 13.445637810074977,
+          "median_food_index": 0.5076856209608445,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 1.5099938896771787,
+          "median_china_manchuria_force_thousands": 1922.2981062587437,
+          "median_pacific_seasia_force_thousands": 1215.7067518075537,
+          "median_effective_civilian_defense_thousands": 76.7900915698641,
+          "median_suicide_air_stock": 0.9892666160173539,
+          "median_suicide_sea_stock": 0.8450067780486358,
+          "median_combined_fleet_stock": 0.09116171507264027,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.37055023172930646,
+          "median_communist_pressure": 0.3110657267141591,
+          "median_regional_damage": {
+            "Hokkaido": 0.1414525752949553,
+            "Tohoku": 0.24301852889598097,
+            "Kanto_Shinetu": 0.5464911988244974,
+            "Tokai_Hokuriku": 0.48946174690472866,
+            "Kinki": 0.5627980598370972,
+            "Chugoku": 0.41368392028203615,
+            "Shikoku": 0.2814795445687117,
+            "Kyushu": 0.4116872706217414
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.00013775924477272655,
+            "Taiwan": 0.004548347054968629,
+            "Korea": 0.004843462468582074,
+            "Southeast_Asia": 8.729523707758038e-05,
+            "Pacific_Islands": 0.004296665988253405
+          }
+        },
+        {
+          "week": 8,
+          "active_share": 0.95945,
+          "mean_control": 0.19697107101848504,
+          "median_allied_casualties_thousands": 64.00383063969385,
+          "median_japanese_military_dead_thousands": 89.12710370984468,
+          "median_japanese_civilian_dead_thousands": 28.91882682357307,
+          "median_food_index": 0.4890533238089492,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 3.0547671992159477,
+          "median_china_manchuria_force_thousands": 1847.6567864077379,
+          "median_pacific_seasia_force_thousands": 1182.5894589930692,
+          "median_effective_civilian_defense_thousands": 73.7848482046694,
+          "median_suicide_air_stock": 0.854866053169984,
+          "median_suicide_sea_stock": 0.7257588637134429,
+          "median_combined_fleet_stock": 0.03920729458198172,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.3731419672777134,
+          "median_communist_pressure": 0.3133563442204279,
+          "median_regional_damage": {
+            "Hokkaido": 0.14326413280010908,
+            "Tohoku": 0.24590426944573118,
+            "Kanto_Shinetu": 0.5630922344748079,
+            "Tokai_Hokuriku": 0.4985559458762643,
+            "Kinki": 0.5759454796158637,
+            "Chugoku": 0.4170406588606038,
+            "Shikoku": 0.2827788148761959,
+            "Kyushu": 0.4398404449834823
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0004903594773565986,
+            "Taiwan": 0.009207377515944833,
+            "Korea": 0.009704237892799304,
+            "Southeast_Asia": 0.00030792820682351064,
+            "Pacific_Islands": 0.008685001372198034
+          }
+        },
+        {
+          "week": 13,
+          "active_share": 0.9023833333333333,
+          "mean_control": 0.3507279010536561,
+          "median_allied_casualties_thousands": 100.93742712108954,
+          "median_japanese_military_dead_thousands": 145.1470317700523,
+          "median_japanese_civilian_dead_thousands": 48.30180448488087,
+          "median_food_index": 0.46402473116039894,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 5.02243110687538,
+          "median_china_manchuria_force_thousands": 1761.6367331605998,
+          "median_pacific_seasia_force_thousands": 1143.9114926009509,
+          "median_effective_civilian_defense_thousands": 69.74660442643236,
+          "median_suicide_air_stock": 0.7658772457605478,
+          "median_suicide_sea_stock": 0.6345603915031333,
+          "median_combined_fleet_stock": 0.011387614958307108,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.3785552107759466,
+          "median_communist_pressure": 0.3182100071203079,
+          "median_regional_damage": {
+            "Hokkaido": 0.14553068968616986,
+            "Tohoku": 0.24945673192563161,
+            "Kanto_Shinetu": 0.5828840877090364,
+            "Tokai_Hokuriku": 0.5096018678115293,
+            "Kinki": 0.5919339843389851,
+            "Chugoku": 0.4211762172648731,
+            "Shikoku": 0.28436739981594555,
+            "Kyushu": 0.4749369677486708
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0011770578543920276,
+            "Taiwan": 0.015022741989475582,
+            "Korea": 0.015636614780278613,
+            "Southeast_Asia": 0.0007418129631579357,
+            "Pacific_Islands": 0.014087954718255061
+          }
+        },
+        {
+          "week": 26,
+          "active_share": 0.7047833333333333,
+          "mean_control": 0.8126193074842775,
+          "median_allied_casualties_thousands": 180.9148781013127,
+          "median_japanese_military_dead_thousands": 276.33741093467665,
+          "median_japanese_civilian_dead_thousands": 97.3289759458022,
+          "median_food_index": 0.39232675375520654,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 10.23959412695535,
+          "median_china_manchuria_force_thousands": 1569.1261473989844,
+          "median_pacific_seasia_force_thousands": 1055.839386376176,
+          "median_effective_civilian_defense_thousands": 58.63514061189995,
+          "median_suicide_air_stock": 0.6957428533626197,
+          "median_suicide_sea_stock": 0.5421176979293367,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.04125,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.004633333333333333,
+          "median_nationalist_pressure": 0.40187875999552425,
+          "median_communist_pressure": 0.3390888122855474,
+          "median_regional_damage": {
+            "Hokkaido": 0.15090227146746343,
+            "Tohoku": 0.2578580573472715,
+            "Kanto_Shinetu": 0.6323399954457458,
+            "Tokai_Hokuriku": 0.5361399364386308,
+            "Kinki": 0.6304479819686017,
+            "Chugoku": 0.4309963300632781,
+            "Shikoku": 0.2881617267645225,
+            "Kyushu": 0.5602596996767433
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.003984530547316217,
+            "Taiwan": 0.0294083445803381,
+            "Korea": 0.02978742931850435,
+            "Southeast_Asia": 0.002423144271096815,
+            "Pacific_Islands": 0.02709674444181783
+          }
+        },
+        {
+          "week": 39,
+          "active_share": 0.47595,
+          "mean_control": 0.9707028161254087,
+          "median_allied_casualties_thousands": 216.49670121116438,
+          "median_japanese_military_dead_thousands": 325.4338820219514,
+          "median_japanese_civilian_dead_thousands": 131.70244220675184,
+          "median_food_index": 0.3271106696338333,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 15.013747988462171,
+          "median_china_manchuria_force_thousands": 1422.042159186722,
+          "median_pacific_seasia_force_thousands": 988.8153457545799,
+          "median_effective_civilian_defense_thousands": 48.94722993378143,
+          "median_suicide_air_stock": 0.6864306311196984,
+          "median_suicide_sea_stock": 0.5227716849471282,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.2732833333333333,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.009366666666666667,
+          "median_nationalist_pressure": 0.42836599046205714,
+          "median_communist_pressure": 0.36288170331023334,
+          "median_regional_damage": {
+            "Hokkaido": 0.15500308824820264,
+            "Tohoku": 0.26418575746000705,
+            "Kanto_Shinetu": 0.6840430866630396,
+            "Tokai_Hokuriku": 0.5573889405749834,
+            "Kinki": 0.6614403422102542,
+            "Chugoku": 0.4384545837584644,
+            "Shikoku": 0.291049888312066,
+            "Kyushu": 0.5949715253468871
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.007232071874467524,
+            "Taiwan": 0.040205693004066526,
+            "Korea": 0.040054340165887645,
+            "Southeast_Asia": 0.004394633003927279,
+            "Pacific_Islands": 0.03648905483592255
+          }
+        },
+        {
+          "week": 52,
+          "active_share": 0.28118333333333334,
+          "mean_control": 0.9907475353007452,
+          "median_allied_casualties_thousands": 229.07999171602597,
+          "median_japanese_military_dead_thousands": 339.7715360118427,
+          "median_japanese_civilian_dead_thousands": 157.90421647545278,
+          "median_food_index": 0.310246554098692,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 15.846020627140263,
+          "median_china_manchuria_force_thousands": 1347.3840146780462,
+          "median_pacific_seasia_force_thousands": 948.4327442426703,
+          "median_effective_civilian_defense_thousands": 42.707650040164694,
+          "median_suicide_air_stock": 0.6854378274929047,
+          "median_suicide_sea_stock": 0.5192774165633831,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.3823166666666667,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.012566666666666667,
+          "median_nationalist_pressure": 0.44548471834364445,
+          "median_communist_pressure": 0.37807888274899437,
+          "median_regional_damage": {
+            "Hokkaido": 0.15775065003065808,
+            "Tohoku": 0.2682713494131218,
+            "Kanto_Shinetu": 0.7191648260817505,
+            "Tokai_Hokuriku": 0.5709097209682668,
+            "Kinki": 0.6815597006983383,
+            "Chugoku": 0.44318600380627804,
+            "Shikoku": 0.2929610771773319,
+            "Kyushu": 0.6051241128608671
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.009328271652730848,
+            "Taiwan": 0.045373908688902384,
+            "Korea": 0.045149045118648694,
+            "Southeast_Asia": 0.005817365306954822,
+            "Pacific_Islands": 0.04091345185164512
+          }
+        },
+        {
+          "week": 78,
+          "active_share": 0.0644,
+          "mean_control": 0.9943559500289778,
+          "median_allied_casualties_thousands": 235.04468062396197,
+          "median_japanese_military_dead_thousands": 346.2914554256338,
+          "median_japanese_civilian_dead_thousands": 200.5310967439276,
+          "median_food_index": 0.310246554098692,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 15.846020627140263,
+          "median_china_manchuria_force_thousands": 1339.3951446402002,
+          "median_pacific_seasia_force_thousands": 935.6551523958967,
+          "median_effective_civilian_defense_thousands": 41.58071612939967,
+          "median_suicide_air_stock": 0.6853021482190287,
+          "median_suicide_sea_stock": 0.5187130430729137,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.42665,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.015266666666666666,
+          "median_nationalist_pressure": 0.4547907065820106,
+          "median_communist_pressure": 0.38691268546250646,
+          "median_regional_damage": {
+            "Hokkaido": 0.15994338805492703,
+            "Tohoku": 0.27155194891213086,
+            "Kanto_Shinetu": 0.7277524240030047,
+            "Tokai_Hokuriku": 0.5784917043827233,
+            "Kinki": 0.6895881715363333,
+            "Chugoku": 0.4469680740547535,
+            "Shikoku": 0.2944624758906243,
+            "Kyushu": 0.6108607785759885
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.009844809305803597,
+            "Taiwan": 0.04670967618687914,
+            "Korea": 0.04654499221572968,
+            "Southeast_Asia": 0.006434753007349406,
+            "Pacific_Islands": 0.042503818818674356
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "allied_adaptive_superiority",
+      "trajectories": 60000,
+      "weeks": 78,
+      "condition": "Japan has not surrendered before the Olympic decision point",
+      "outcome_distribution": {
+        "coordinated_central_surrender": 0.5152,
+        "central_surrender_with_fragmented_resistance": 0.21916666666666668,
+        "conditional_settlement": 0.15276666666666666,
+        "allied_operational_pause": 0.06826666666666667,
+        "humanitarian_collapse": 0.00865,
+        "coalition_war_continues_at_78_weeks": 0.03595
+      },
+      "terminal_week": {
+        "p10": 13.0,
+        "median": 33.0,
+        "p90": 64.0,
+        "mean": 35.968383333333335
+      },
+      "allied_kia_thousands": {
+        "p10": 20.324611920323324,
+        "median": 27.885607195477643,
+        "p90": 45.999757659914884,
+        "mean": 30.972600145865446
+      },
+      "allied_total_casualties_thousands": {
+        "p10": 86.47933162589779,
+        "median": 118.34942703540787,
+        "p90": 193.7883280995318,
+        "mean": 131.07384478860945
+      },
+      "japanese_military_dead_thousands": {
+        "p10": 317.53329517840723,
+        "median": 375.500400057163,
+        "p90": 580.7472118749579,
+        "mean": 418.35993261531763
+      },
+      "japanese_civilian_dead_thousands": {
+        "p10": 141.16590827686446,
+        "median": 174.6347257435809,
+        "p90": 240.563779963881,
+        "mean": 196.1772275591421
+      },
+      "southern_kyushu_fronts_secured_share": {
+        "p10": 1.0,
+        "median": 1.0,
+        "p90": 1.0,
+        "mean": 1.0
+      },
+      "food_index": {
+        "p10": 0.09388200330474906,
+        "median": 0.31729689225233604,
+        "p90": 0.4584921504257566,
+        "mean": 0.2967799864754454
+      },
+      "shipping_damage_index": {
+        "p10": 0.00973728098087577,
+        "median": 0.01382313714159892,
+        "p90": 0.018836090025965816,
+        "mean": 0.014111007896048973
+      },
+      "suicide_air_stock_remaining": {
+        "p10": 0.2140727687036761,
+        "median": 0.38801760002793634,
+        "p90": 0.5716153418631998,
+        "mean": 0.3911853974415543
+      },
+      "suicide_sea_stock_remaining": {
+        "p10": 0.07016385780644521,
+        "median": 0.2723132555775366,
+        "p90": 0.4870291211019756,
+        "mean": 0.2784750652565218
+      },
+      "combined_fleet_stock_remaining": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 0.05657269863374145,
+        "mean": 0.016814262301719878
+      },
+      "naval_fuel_remaining": {
+        "p10": 0.086117071632909,
+        "median": 0.1396711985479841,
+        "p90": 0.18833790113751359,
+        "mean": 0.13814169568053508
+      },
+      "additional_atomic_strikes": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 1.0,
+        "mean": 0.29633333333333334
+      },
+      "atomic_civilian_dead_thousands": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 67.17603595190698,
+        "mean": 22.35260935854687
+      },
+      "conventional_bombing_civilian_dead_thousands": {
+        "p10": 5.787163958360802,
+        "median": 16.356424237532913,
+        "p90": 32.5066471866517,
+        "mean": 17.82394934353128
+      },
+      "effective_civilian_defense_thousands": {
+        "p10": 1.1914113316873043,
+        "median": 31.874719697813482,
+        "p90": 54.76398953543342,
+        "mean": 30.871250080711015
+      },
+      "china_manchuria_force_remaining_thousands": {
+        "p10": 953.7129729013795,
+        "median": 1404.2591173277874,
+        "p90": 1795.5981982432663,
+        "mean": 1391.7198900768665
+      },
+      "pacific_seasia_force_remaining_thousands": {
+        "p10": 732.9708663076116,
+        "median": 966.8150771704422,
+        "p90": 1191.3002511832722,
+        "mean": 965.6735995413627
+      },
+      "coronet_launched_share": 0.5717166666666667,
+      "coronet_progress": {
+        "p10": 0.0,
+        "median": 0.07830065007651349,
+        "p90": 0.5831723175925584,
+        "mean": 0.1954696643384026
+      },
+      "soviet_hokkaido_entry_share": 0.0163,
+      "nationalist_pressure": {
+        "p10": 0.34961784801401,
+        "median": 0.46098749436743225,
+        "p90": 0.6132407784724025,
+        "mean": 0.47174888562917
+      },
+      "communist_pressure": {
+        "p10": 0.2859208332833162,
+        "median": 0.39285339572236344,
+        "p90": 0.5305820714718468,
+        "mean": 0.40121941800935657
+      },
+      "chinese_factional_friction": {
+        "p10": 0.2906857803799044,
+        "median": 0.41955060208026657,
+        "p90": 0.5487850221099743,
+        "mean": 0.41974038689711807
+      },
+      "soviet_operational_pressure": {
+        "p10": 0.7364399432527253,
+        "median": 0.8439031571665229,
+        "p90": 0.9612619764689321,
+        "mean": 0.8439914828092923
+      },
+      "commonwealth_pressure": {
+        "p10": 0.5362333977540846,
+        "median": 0.6440459085278103,
+        "p90": 0.7856033987240836,
+        "mean": 0.653174473435339
+      },
+      "regional_damage_median": {
+        "Hokkaido": 0.1611575130372615,
+        "Tohoku": 0.27234384747997686,
+        "Kanto_Shinetu": 0.7491621752051487,
+        "Tokai_Hokuriku": 0.5792540740858565,
+        "Kinki": 0.6905113730857542,
+        "Chugoku": 0.4476036545556211,
+        "Shikoku": 0.29446864374659265,
+        "Kyushu": 0.5471826470325777
+      },
+      "pre_x_regional_damage_median": {
+        "Hokkaido": 0.14005430284154613,
+        "Tohoku": 0.2402298855044654,
+        "Kanto_Shinetu": 0.5299685905250222,
+        "Tokai_Hokuriku": 0.47988685576821627,
+        "Kinki": 0.5500938421372255,
+        "Chugoku": 0.40953495553910435,
+        "Shikoku": 0.2797011881669946,
+        "Kyushu": 0.3901037678045438
+      },
+      "regional_transport_median": {
+        "Hokkaido": 0.648207846188585,
+        "Tohoku": 0.6006325692585512,
+        "Kanto_Shinetu": 0.46152009899461804,
+        "Tokai_Hokuriku": 0.4854819853152325,
+        "Kinki": 0.45167376435368656,
+        "Chugoku": 0.519044219445862,
+        "Shikoku": 0.5812483912689517,
+        "Kyushu": 0.5287057808660782
+      },
+      "regional_food_median": {
+        "Hokkaido": 0.3804772424285695,
+        "Tohoku": 0.3608422391842905,
+        "Kanto_Shinetu": 0.29734026368835925,
+        "Tokai_Hokuriku": 0.31206969446118427,
+        "Kinki": 0.2963721705826001,
+        "Chugoku": 0.3284922269676732,
+        "Shikoku": 0.35429710047828966,
+        "Kyushu": 0.32453901992694956
+      },
+      "regional_governance_median": {
+        "Hokkaido": 0.7795105911270512,
+        "Tohoku": 0.7478208275784057,
+        "Kanto_Shinetu": 0.6192163518537049,
+        "Tokai_Hokuriku": 0.6676132244946136,
+        "Kinki": 0.6424594702393335,
+        "Chugoku": 0.693574064685876,
+        "Shikoku": 0.7359117558426148,
+        "Kyushu": 0.6193417723140262
+      },
+      "occupied_infrastructure_damage_median": {
+        "China_Manchuria": 0.006859374233647034,
+        "Taiwan": 0.03612487262953323,
+        "Korea": 0.03585298206608949,
+        "Southeast_Asia": 0.004430751880805541,
+        "Pacific_Islands": 0.03313197006594386
+      },
+      "occupied_civilian_dead_thousands": {
+        "China_Manchuria": {
+          "p10": 0.00031765048746073844,
+          "median": 0.00458158724296643,
+          "p90": 0.018189874106091054,
+          "mean": 0.00720505833034885
+        },
+        "Taiwan": {
+          "p10": 0.0018894615996659927,
+          "median": 0.005896303589780343,
+          "p90": 0.013742380303540063,
+          "mean": 0.006992803927972967
+        },
+        "Korea": {
+          "p10": 0.003473384101121487,
+          "median": 0.010543950608911702,
+          "p90": 0.02458020701526418,
+          "mean": 0.012558713776109058
+        },
+        "Southeast_Asia": {
+          "p10": -0.00022988407902649208,
+          "median": 0.0021845203595961867,
+          "p90": 0.009695747301048323,
+          "mean": 0.003629724249329822
+        },
+        "Pacific_Islands": {
+          "p10": 0.0008496609619526156,
+          "median": 0.0027006098852511364,
+          "p90": 0.006343994648846883,
+          "mean": 0.0032182810817502766
+        }
+      },
+      "history": [
+        {
+          "week": 1,
+          "active_share": 1.0,
+          "mean_control": 0.040978024611477155,
+          "median_allied_casualties_thousands": 5.703457265760585,
+          "median_japanese_military_dead_thousands": 17.762014270772802,
+          "median_japanese_civilian_dead_thousands": 3.5339136884095517,
+          "median_food_index": 0.5179617316678466,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 0.4300585786238582,
+          "median_china_manchuria_force_thousands": 1981.2744352925515,
+          "median_pacific_seasia_force_thousands": 1241.8631752032557,
+          "median_effective_civilian_defense_thousands": 60.641567435992286,
+          "median_suicide_air_stock": 0.8490866715387695,
+          "median_suicide_sea_stock": 0.7193791423842496,
+          "median_combined_fleet_stock": 0.1647880067106696,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.36983380002583216,
+          "median_communist_pressure": 0.3108356999154167,
+          "median_regional_damage": {
+            "Hokkaido": 0.1405915807601028,
+            "Tohoku": 0.2410411190789894,
+            "Kanto_Shinetu": 0.5345670505001541,
+            "Tokai_Hokuriku": 0.48247373134937144,
+            "Kinki": 0.553796131077567,
+            "Chugoku": 0.4104796429243788,
+            "Shikoku": 0.2800649174995881,
+            "Kyushu": 0.3966270064920304
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 1.1348537343988318e-05,
+            "Taiwan": 0.0009640492783214937,
+            "Korea": 0.0010300954865793866,
+            "Southeast_Asia": 7.152174278504804e-06,
+            "Pacific_Islands": 0.0009174462581592695
+          }
+        },
+        {
+          "week": 4,
+          "active_share": 1.0,
+          "mean_control": 0.17194816006171945,
+          "median_allied_casualties_thousands": 22.48060166916657,
+          "median_japanese_military_dead_thousands": 71.07932201943723,
+          "median_japanese_civilian_dead_thousands": 14.890747909776804,
+          "median_food_index": 0.5053618958903059,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 1.7658563867599477,
+          "median_china_manchuria_force_thousands": 1922.744077683979,
+          "median_pacific_seasia_force_thousands": 1216.5510967422906,
+          "median_effective_civilian_defense_thousands": 58.868692307141,
+          "median_suicide_air_stock": 0.687287152297743,
+          "median_suicide_sea_stock": 0.5912310500108754,
+          "median_combined_fleet_stock": 0.09099137732660918,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.3706309414821029,
+          "median_communist_pressure": 0.3115916493126579,
+          "median_regional_damage": {
+            "Hokkaido": 0.14217137996560075,
+            "Tohoku": 0.2434569225108762,
+            "Kanto_Shinetu": 0.5486111517694596,
+            "Tokai_Hokuriku": 0.4902898623421934,
+            "Kinki": 0.5650213552888246,
+            "Chugoku": 0.41340816506116806,
+            "Shikoku": 0.28117604413200703,
+            "Kyushu": 0.4182033015183568
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.00012130465218974026,
+            "Taiwan": 0.004007992211193344,
+            "Korea": 0.004243396935379187,
+            "Southeast_Asia": 7.586812215294741e-05,
+            "Pacific_Islands": 0.0038083727172088973
+          }
+        },
+        {
+          "week": 8,
+          "active_share": 0.9556,
+          "mean_control": 0.3652942019119406,
+          "median_allied_casualties_thousands": 43.71747732613153,
+          "median_japanese_military_dead_thousands": 141.90704367411033,
+          "median_japanese_civilian_dead_thousands": 30.126735116399303,
+          "median_food_index": 0.4846616712900669,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 3.5878090969231407,
+          "median_china_manchuria_force_thousands": 1848.1044161521022,
+          "median_pacific_seasia_force_thousands": 1183.474498916315,
+          "median_effective_civilian_defense_thousands": 56.05351610551541,
+          "median_suicide_air_stock": 0.5533762824658617,
+          "median_suicide_sea_stock": 0.4721963067941859,
+          "median_combined_fleet_stock": 0.03906435290082499,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.37390738382560296,
+          "median_communist_pressure": 0.3146061754305496,
+          "median_regional_damage": {
+            "Hokkaido": 0.14428950861417733,
+            "Tohoku": 0.24678281439986463,
+            "Kanto_Shinetu": 0.5675865818626842,
+            "Tokai_Hokuriku": 0.500855666263442,
+            "Kinki": 0.5801707199536356,
+            "Chugoku": 0.4173267375180477,
+            "Shikoku": 0.2827290891002766,
+            "Kyushu": 0.4470037671818763
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.00043216055566475803,
+            "Taiwan": 0.00815298505221394,
+            "Korea": 0.00850968268933368,
+            "Southeast_Asia": 0.00026832914608552246,
+            "Pacific_Islands": 0.007709362390698535
+          }
+        },
+        {
+          "week": 13,
+          "active_share": 0.8866333333333334,
+          "mean_control": 0.6341982583232039,
+          "median_allied_casualties_thousands": 68.23481815798358,
+          "median_japanese_military_dead_thousands": 228.84182948970312,
+          "median_japanese_civilian_dead_thousands": 49.22203579630739,
+          "median_food_index": 0.45692078756345833,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 5.923142268628939,
+          "median_china_manchuria_force_thousands": 1762.4362000876545,
+          "median_pacific_seasia_force_thousands": 1144.5731204950237,
+          "median_effective_civilian_defense_thousands": 52.33243336946943,
+          "median_suicide_air_stock": 0.46486229254196243,
+          "median_suicide_sea_stock": 0.3814904450038398,
+          "median_combined_fleet_stock": 0.011289565163786881,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.3811491781011965,
+          "median_communist_pressure": 0.32081737127180543,
+          "median_regional_damage": {
+            "Hokkaido": 0.1469120595088595,
+            "Tohoku": 0.25089016812933074,
+            "Kanto_Shinetu": 0.5907438213064222,
+            "Tokai_Hokuriku": 0.5135955673309507,
+            "Kinki": 0.5984722543826031,
+            "Chugoku": 0.4221360352020162,
+            "Shikoku": 0.2845748159325846,
+            "Kyushu": 0.4829000640445641
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0010346751845586324,
+            "Taiwan": 0.013295096625379251,
+            "Korea": 0.013677498848590982,
+            "Southeast_Asia": 0.0006442458861997064,
+            "Pacific_Islands": 0.012489496924894417
+          }
+        },
+        {
+          "week": 26,
+          "active_share": 0.6324,
+          "mean_control": 0.9964622222666549,
+          "median_allied_casualties_thousands": 101.48680452393548,
+          "median_japanese_military_dead_thousands": 342.03078005139866,
+          "median_japanese_civilian_dead_thousands": 85.41743438373013,
+          "median_food_index": 0.37836764852425914,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 12.086939180238957,
+          "median_china_manchuria_force_thousands": 1577.0969842695526,
+          "median_pacific_seasia_force_thousands": 1058.8358333900815,
+          "median_effective_civilian_defense_thousands": 42.54214244643347,
+          "median_suicide_air_stock": 0.3968428565476301,
+          "median_suicide_sea_stock": 0.29220564096858437,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.33723333333333333,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.00595,
+          "median_nationalist_pressure": 0.4104808726295949,
+          "median_communist_pressure": 0.34686114529384815,
+          "median_regional_damage": {
+            "Hokkaido": 0.15287826104600188,
+            "Tohoku": 0.26006623438354315,
+            "Kanto_Shinetu": 0.6576748677208455,
+            "Tokai_Hokuriku": 0.5431788250842763,
+            "Kinki": 0.6416305089031957,
+            "Chugoku": 0.4328373579508922,
+            "Shikoku": 0.2888504364467013,
+            "Kyushu": 0.5294178521010292
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.003342742888408124,
+            "Taiwan": 0.025453300154526043,
+            "Korea": 0.025418020214395362,
+            "Southeast_Asia": 0.002020258296123893,
+            "Pacific_Islands": 0.023411232228208248
+          }
+        },
+        {
+          "week": 39,
+          "active_share": 0.39081666666666665,
+          "mean_control": 0.9966527524068026,
+          "median_allied_casualties_thousands": 111.12817044920324,
+          "median_japanese_military_dead_thousands": 358.91805147816865,
+          "median_japanese_civilian_dead_thousands": 112.0033355190872,
+          "median_food_index": 0.3186226171723199,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 16.348737061097772,
+          "median_china_manchuria_force_thousands": 1447.5740204983608,
+          "median_pacific_seasia_force_thousands": 1000.0260022743005,
+          "median_effective_civilian_defense_thousands": 34.815736720263736,
+          "median_suicide_air_stock": 0.38894795515801317,
+          "median_suicide_sea_stock": 0.2752203927005703,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.5139333333333334,
+          "median_coronet_progress": 0.019589568000322875,
+          "soviet_hokkaido_entry_share": 0.011383333333333334,
+          "median_nationalist_pressure": 0.4414895629763709,
+          "median_communist_pressure": 0.37427861755519354,
+          "median_regional_damage": {
+            "Hokkaido": 0.157127368161613,
+            "Tohoku": 0.2664079832938127,
+            "Kanto_Shinetu": 0.7227929116082166,
+            "Tokai_Hokuriku": 0.5645869863364171,
+            "Kinki": 0.6728994008007022,
+            "Chugoku": 0.4405394605789125,
+            "Shikoku": 0.2916160704295714,
+            "Kyushu": 0.5387395758578468
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.005702258648910254,
+            "Taiwan": 0.03313347804207169,
+            "Korea": 0.03285662526886994,
+            "Southeast_Asia": 0.003431918603607092,
+            "Pacific_Islands": 0.030127485537692626
+          }
+        },
+        {
+          "week": 52,
+          "active_share": 0.20515,
+          "mean_control": 0.9966527524068026,
+          "median_allied_casualties_thousands": 116.32622706764202,
+          "median_japanese_military_dead_thousands": 370.18542203073275,
+          "median_japanese_civilian_dead_thousands": 135.73632554400217,
+          "median_food_index": 0.31729689225233604,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 16.356424237532913,
+          "median_china_manchuria_force_thousands": 1405.166205063801,
+          "median_pacific_seasia_force_thousands": 971.7248028736082,
+          "median_effective_civilian_defense_thousands": 31.933413716068053,
+          "median_suicide_air_stock": 0.388075748812054,
+          "median_suicide_sea_stock": 0.27275923945831204,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.5586333333333333,
+          "median_coronet_progress": 0.06273355933009025,
+          "soviet_hokkaido_entry_share": 0.014466666666666666,
+          "median_nationalist_pressure": 0.4572019591019536,
+          "median_communist_pressure": 0.38866328180082144,
+          "median_regional_damage": {
+            "Hokkaido": 0.15950457674918167,
+            "Tohoku": 0.27018973842347127,
+            "Kanto_Shinetu": 0.7472979088477176,
+            "Tokai_Hokuriku": 0.5757417304450079,
+            "Kinki": 0.6881311325145139,
+            "Chugoku": 0.445012631560342,
+            "Shikoku": 0.2932813338750888,
+            "Kyushu": 0.5440006162106673
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.006741626796320558,
+            "Taiwan": 0.035665553468425544,
+            "Korea": 0.035436022469575126,
+            "Southeast_Asia": 0.004243224763351031,
+            "Pacific_Islands": 0.03254390490928072
+          }
+        },
+        {
+          "week": 78,
+          "active_share": 0.03595,
+          "mean_control": 0.9966527524068026,
+          "median_allied_casualties_thousands": 118.34942703540787,
+          "median_japanese_military_dead_thousands": 375.500400057163,
+          "median_japanese_civilian_dead_thousands": 174.6347257435809,
+          "median_food_index": 0.31729689225233604,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 16.356424237532913,
+          "median_china_manchuria_force_thousands": 1404.2591173277874,
+          "median_pacific_seasia_force_thousands": 966.8150771704422,
+          "median_effective_civilian_defense_thousands": 31.874719697813482,
+          "median_suicide_air_stock": 0.38801760002793634,
+          "median_suicide_sea_stock": 0.2723132555775366,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.5717166666666667,
+          "median_coronet_progress": 0.07830065007651349,
+          "soviet_hokkaido_entry_share": 0.0163,
+          "median_nationalist_pressure": 0.46098749436743225,
+          "median_communist_pressure": 0.39285339572236344,
+          "median_regional_damage": {
+            "Hokkaido": 0.1611575130372615,
+            "Tohoku": 0.27234384747997686,
+            "Kanto_Shinetu": 0.7491621752051487,
+            "Tokai_Hokuriku": 0.5792540740858565,
+            "Kinki": 0.6905113730857542,
+            "Chugoku": 0.4476036545556211,
+            "Shikoku": 0.29446864374659265,
+            "Kyushu": 0.5471826470325777
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.006859374233647034,
+            "Taiwan": 0.03612487262953323,
+            "Korea": 0.03585298206608949,
+            "Southeast_Asia": 0.004430751880805541,
+            "Pacific_Islands": 0.03313197006594386
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "coalition_nuclear_escalation",
+      "trajectories": 60000,
+      "weeks": 78,
+      "condition": "Japan has not surrendered before the Olympic decision point",
+      "outcome_distribution": {
+        "coordinated_central_surrender": 0.47818333333333335,
+        "central_surrender_with_fragmented_resistance": 0.24083333333333334,
+        "conditional_settlement": 0.1496,
+        "allied_operational_pause": 0.09445,
+        "humanitarian_collapse": 0.007566666666666667,
+        "coalition_war_continues_at_78_weeks": 0.029366666666666666
+      },
+      "terminal_week": {
+        "p10": 13.0,
+        "median": 33.0,
+        "p90": 62.0,
+        "mean": 35.4982
+      },
+      "allied_kia_thousands": {
+        "p10": 29.341979105870646,
+        "median": 39.057115577733136,
+        "p90": 58.21278577795115,
+        "mean": 41.69486994727511
+      },
+      "allied_total_casualties_thousands": {
+        "p10": 124.83919385752243,
+        "median": 165.86364792288884,
+        "p90": 245.61030011823615,
+        "mean": 176.69144854866232
+      },
+      "japanese_military_dead_thousands": {
+        "p10": 336.57804992460467,
+        "median": 390.0291237437362,
+        "p90": 572.4800419679077,
+        "mean": 426.5039997915372
+      },
+      "japanese_civilian_dead_thousands": {
+        "p10": 157.72055230918457,
+        "median": 273.6305104835778,
+        "p90": 528.6337920644609,
+        "mean": 314.9223365657633
+      },
+      "southern_kyushu_fronts_secured_share": {
+        "p10": 1.0,
+        "median": 1.0,
+        "p90": 1.0,
+        "mean": 1.0
+      },
+      "food_index": {
+        "p10": 0.09016997329312662,
+        "median": 0.30913961872504203,
+        "p90": 0.45366006008804505,
+        "mean": 0.29004237056390314
+      },
+      "shipping_damage_index": {
+        "p10": 0.012003020229838119,
+        "median": 0.017091803443611928,
+        "p90": 0.02317454335504805,
+        "mean": 0.017398723640740552
+      },
+      "suicide_air_stock_remaining": {
+        "p10": 0.3470218005526208,
+        "median": 0.5474241195978031,
+        "p90": 0.7588305689054631,
+        "mean": 0.5513381951743991
+      },
+      "suicide_sea_stock_remaining": {
+        "p10": 0.17583743666858337,
+        "median": 0.4090133882423779,
+        "p90": 0.6492182359170532,
+        "mean": 0.41188654305467587
+      },
+      "combined_fleet_stock_remaining": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 0.056418248193158535,
+        "mean": 0.016854037087551198
+      },
+      "naval_fuel_remaining": {
+        "p10": 0.08694777837316774,
+        "median": 0.13979922150921936,
+        "p90": 0.18829557648134998,
+        "mean": 0.13849150352905176
+      },
+      "additional_atomic_strikes": {
+        "p10": 0.0,
+        "median": 1.0,
+        "p90": 4.0,
+        "mean": 1.7526333333333333
+      },
+      "atomic_civilian_dead_thousands": {
+        "p10": 0.0,
+        "median": 97.44648514045707,
+        "p90": 329.46521662703594,
+        "mean": 131.90466777748057
+      },
+      "conventional_bombing_civilian_dead_thousands": {
+        "p10": 6.182947675910771,
+        "median": 17.074344290672272,
+        "p90": 33.01237777518614,
+        "mean": 18.475395012041606
+      },
+      "effective_civilian_defense_thousands": {
+        "p10": 0.0,
+        "median": 36.33406487363192,
+        "p90": 70.5593206087353,
+        "mean": 35.37855214662392
+      },
+      "china_manchuria_force_remaining_thousands": {
+        "p10": 975.2315955325993,
+        "median": 1408.6138591247359,
+        "p90": 1788.3954221333875,
+        "mean": 1396.2196138394945
+      },
+      "pacific_seasia_force_remaining_thousands": {
+        "p10": 741.0408881988385,
+        "median": 968.7375340545141,
+        "p90": 1189.4480494608003,
+        "mean": 968.2640999649744
+      },
+      "coronet_launched_share": 0.5432833333333333,
+      "coronet_progress": {
+        "p10": 0.0,
+        "median": 0.048396206045065594,
+        "p90": 0.5334063550094762,
+        "mean": 0.17164071619293872
+      },
+      "soviet_hokkaido_entry_share": 0.016766666666666666,
+      "nationalist_pressure": {
+        "p10": 0.35023009076628214,
+        "median": 0.46345058848631127,
+        "p90": 0.6151179979862702,
+        "mean": 0.4738128312452714
+      },
+      "communist_pressure": {
+        "p10": 0.2865743883309821,
+        "median": 0.3941314300465178,
+        "p90": 0.53267158233816,
+        "mean": 0.402716361291334
+      },
+      "chinese_factional_friction": {
+        "p10": 0.29030855216729196,
+        "median": 0.419879752952952,
+        "p90": 0.5483357473271646,
+        "mean": 0.4196398359410851
+      },
+      "soviet_operational_pressure": {
+        "p10": 0.7366787753557986,
+        "median": 0.8447789814037417,
+        "p90": 0.9636462909786473,
+        "mean": 0.8450273775938419
+      },
+      "commonwealth_pressure": {
+        "p10": 0.5378981840600703,
+        "median": 0.6465497997331926,
+        "p90": 0.7870194216730241,
+        "mean": 0.6549731480241954
+      },
+      "regional_damage_median": {
+        "Hokkaido": 0.16400690138532392,
+        "Tohoku": 0.27777299337021544,
+        "Kanto_Shinetu": 0.8030569510191519,
+        "Tokai_Hokuriku": 0.6028691274622192,
+        "Kinki": 0.7301698445232884,
+        "Chugoku": 0.45486734015618163,
+        "Shikoku": 0.297160260738104,
+        "Kyushu": 0.572906368280543
+      },
+      "pre_x_regional_damage_median": {
+        "Hokkaido": 0.1396392925163118,
+        "Tohoku": 0.23974896667946705,
+        "Kanto_Shinetu": 0.5298838831838546,
+        "Tokai_Hokuriku": 0.4798431937413894,
+        "Kinki": 0.5501679928997218,
+        "Chugoku": 0.40991288853582764,
+        "Shikoku": 0.2796897164703156,
+        "Kyushu": 0.390216483064455
+      },
+      "regional_transport_median": {
+        "Hokkaido": 0.6457782753895265,
+        "Tohoku": 0.5978924668113036,
+        "Kanto_Shinetu": 0.458891002358562,
+        "Tokai_Hokuriku": 0.4831164962769924,
+        "Kinki": 0.44921247871529735,
+        "Chugoku": 0.5167082081757215,
+        "Shikoku": 0.5789139646329753,
+        "Kyushu": 0.5261261668867794
+      },
+      "regional_food_median": {
+        "Hokkaido": 0.37347160959778225,
+        "Tohoku": 0.3532954860754377,
+        "Kanto_Shinetu": 0.28800016681803975,
+        "Tokai_Hokuriku": 0.3037245817517439,
+        "Kinki": 0.2872079015817787,
+        "Chugoku": 0.32032006467326635,
+        "Shikoku": 0.34716680707422937,
+        "Kyushu": 0.31653948125516596
+      },
+      "regional_governance_median": {
+        "Hokkaido": 0.7773844352362721,
+        "Tohoku": 0.7443347865337103,
+        "Kanto_Shinetu": 0.5960223292318829,
+        "Tokai_Hokuriku": 0.6549088738359625,
+        "Kinki": 0.6236546747238328,
+        "Chugoku": 0.6894395258108059,
+        "Shikoku": 0.7349578998448784,
+        "Kyushu": 0.6025995467371976
+      },
+      "occupied_infrastructure_damage_median": {
+        "China_Manchuria": 0.0077222318522603434,
+        "Taiwan": 0.04108391900537965,
+        "Korea": 0.04114455838299386,
+        "Southeast_Asia": 0.005018081731283191,
+        "Pacific_Islands": 0.0377432989032936
+      },
+      "occupied_civilian_dead_thousands": {
+        "China_Manchuria": {
+          "p10": 0.00040729085540644797,
+          "median": 0.005178400357302368,
+          "p90": 0.019848310913450504,
+          "mean": 0.00802234342817512
+        },
+        "Taiwan": {
+          "p10": 0.0021835303605186093,
+          "median": 0.0067171259714197806,
+          "p90": 0.015249515783599695,
+          "mean": 0.007890711546752999
+        },
+        "Korea": {
+          "p10": 0.004004063805055578,
+          "median": 0.012085769419203786,
+          "p90": 0.027447596910114426,
+          "mean": 0.014210131076765007
+        },
+        "Southeast_Asia": {
+          "p10": -0.0002603014813303892,
+          "median": 0.0024863477991722083,
+          "p90": 0.010737211298526676,
+          "mean": 0.004049300740196404
+        },
+        "Pacific_Islands": {
+          "p10": 0.0009836626199938687,
+          "median": 0.0030839310260786807,
+          "p90": 0.007078006249424682,
+          "mean": 0.003639924985118376
+        }
+      },
+      "history": [
+        {
+          "week": 1,
+          "active_share": 1.0,
+          "mean_control": 0.031635914865990836,
+          "median_allied_casualties_thousands": 7.353872778197573,
+          "median_japanese_military_dead_thousands": 16.169131054802932,
+          "median_japanese_civilian_dead_thousands": 3.1260724294623348,
+          "median_food_index": 0.5175594917567603,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 0.4543673073718556,
+          "median_china_manchuria_force_thousands": 1980.1075162271627,
+          "median_pacific_seasia_force_thousands": 1241.0428191289302,
+          "median_effective_civilian_defense_thousands": 81.84827763370781,
+          "median_suicide_air_stock": 1.0104088462771534,
+          "median_suicide_sea_stock": 0.8563885537908382,
+          "median_combined_fleet_stock": 0.16505291073246905,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.3698987718654559,
+          "median_communist_pressure": 0.3096729834614276,
+          "median_regional_damage": {
+            "Hokkaido": 0.14023799165426204,
+            "Tohoku": 0.24075566447673652,
+            "Kanto_Shinetu": 0.535512127518609,
+            "Tokai_Hokuriku": 0.4829372977555584,
+            "Kinki": 0.5546482016635356,
+            "Chugoku": 0.411099357543292,
+            "Shikoku": 0.2801408529111981,
+            "Kyushu": 0.3950096480419305
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 1.354602115854478e-05,
+            "Taiwan": 0.0010896905443816434,
+            "Korea": 0.0011681470967449723,
+            "Southeast_Asia": 8.538457780598053e-06,
+            "Pacific_Islands": 0.0010375817041031648
+          }
+        },
+        {
+          "week": 4,
+          "active_share": 1.0,
+          "mean_control": 0.1337211829973569,
+          "median_allied_casualties_thousands": 29.019645212107932,
+          "median_japanese_military_dead_thousands": 64.88923709845156,
+          "median_japanese_civilian_dead_thousands": 15.285600631694006,
+          "median_food_index": 0.5047237801869847,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 1.860921941608332,
+          "median_china_manchuria_force_thousands": 1921.7330954121994,
+          "median_pacific_seasia_force_thousands": 1215.7834757624755,
+          "median_effective_civilian_defense_thousands": 78.93427442385396,
+          "median_suicide_air_stock": 0.8486093270361269,
+          "median_suicide_sea_stock": 0.7282404614174639,
+          "median_combined_fleet_stock": 0.09125628134840864,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.3707473807542596,
+          "median_communist_pressure": 0.31056717282058177,
+          "median_regional_damage": {
+            "Hokkaido": 0.14210894183876746,
+            "Tohoku": 0.24377094016418602,
+            "Kanto_Shinetu": 0.5529503188219824,
+            "Tokai_Hokuriku": 0.4925704342117463,
+            "Kinki": 0.5684611155236723,
+            "Chugoku": 0.4146284738221692,
+            "Shikoku": 0.28152656990602576,
+            "Kyushu": 0.4173071545383609
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0001395825283686749,
+            "Taiwan": 0.004555222256053925,
+            "Korea": 0.00480924387660099,
+            "Southeast_Asia": 8.642582285653661e-05,
+            "Pacific_Islands": 0.004299505878405098
+          }
+        },
+        {
+          "week": 8,
+          "active_share": 0.9564,
+          "mean_control": 0.28851687276401883,
+          "median_allied_casualties_thousands": 56.53548762663622,
+          "median_japanese_military_dead_thousands": 129.96839342136093,
+          "median_japanese_civilian_dead_thousands": 32.04344326928347,
+          "median_food_index": 0.48304645521271544,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 3.779673094462673,
+          "median_china_manchuria_force_thousands": 1847.126514845593,
+          "median_pacific_seasia_force_thousands": 1182.6987924321113,
+          "median_effective_civilian_defense_thousands": 74.42735804089443,
+          "median_suicide_air_stock": 0.714355418549244,
+          "median_suicide_sea_stock": 0.6089729176961385,
+          "median_combined_fleet_stock": 0.03932478976666091,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.3743179652719938,
+          "median_communist_pressure": 0.3136855881917636,
+          "median_regional_damage": {
+            "Hokkaido": 0.14465656249078176,
+            "Tohoku": 0.2479087371624773,
+            "Kanto_Shinetu": 0.5762277857720385,
+            "Tokai_Hokuriku": 0.5053741253922011,
+            "Kinki": 0.5870422739985037,
+            "Chugoku": 0.4195001877782867,
+            "Shikoku": 0.2833899033378763,
+            "Kyushu": 0.44721192301328105
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0004929359549162675,
+            "Taiwan": 0.009241297369826033,
+            "Korea": 0.009642547936182046,
+            "Southeast_Asia": 0.0003096500312830397,
+            "Pacific_Islands": 0.008723621985186067
+          }
+        },
+        {
+          "week": 13,
+          "active_share": 0.89135,
+          "mean_control": 0.5133571402876667,
+          "median_allied_casualties_thousands": 88.5023940354634,
+          "median_japanese_military_dead_thousands": 211.06649779216582,
+          "median_japanese_civilian_dead_thousands": 54.41750374174511,
+          "median_food_index": 0.4539027935284154,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 6.231252896592681,
+          "median_china_manchuria_force_thousands": 1761.7898919923355,
+          "median_pacific_seasia_force_thousands": 1144.1966242596568,
+          "median_effective_civilian_defense_thousands": 68.40406433564937,
+          "median_suicide_air_stock": 0.6257625776138972,
+          "median_suicide_sea_stock": 0.5181265997550734,
+          "median_combined_fleet_stock": 0.011555619248135005,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.3818634854964906,
+          "median_communist_pressure": 0.32037956305722304,
+          "median_regional_damage": {
+            "Hokkaido": 0.14779129129161078,
+            "Tohoku": 0.25280823353473786,
+            "Kanto_Shinetu": 0.6056156824110386,
+            "Tokai_Hokuriku": 0.5215040087529941,
+            "Kinki": 0.6100848485826864,
+            "Chugoku": 0.4254869725453113,
+            "Shikoku": 0.28562934221155967,
+            "Kyushu": 0.48445899528803515
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0011763502961003808,
+            "Taiwan": 0.015126858630845208,
+            "Korea": 0.015571659561214219,
+            "Southeast_Asia": 0.0007373716101695068,
+            "Pacific_Islands": 0.014171151069260523
+          }
+        },
+        {
+          "week": 26,
+          "active_share": 0.6379333333333334,
+          "mean_control": 0.9823558412844922,
+          "median_allied_casualties_thousands": 145.26788586302044,
+          "median_japanese_military_dead_thousands": 357.1470593574902,
+          "median_japanese_civilian_dead_thousands": 159.6688176375918,
+          "median_food_index": 0.37099886602353815,
+          "median_atomic_strikes": 1.0,
+          "median_conventional_bombing_civilian_dead_thousands": 12.711286538904522,
+          "median_china_manchuria_force_thousands": 1574.3642230220917,
+          "median_pacific_seasia_force_thousands": 1057.9066661475908,
+          "median_effective_civilian_defense_thousands": 52.98172267363916,
+          "median_suicide_air_stock": 0.556665527869213,
+          "median_suicide_sea_stock": 0.4284527203246917,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.27555,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.006316666666666667,
+          "median_nationalist_pressure": 0.41301547606443945,
+          "median_communist_pressure": 0.3482519458469885,
+          "median_regional_damage": {
+            "Hokkaido": 0.15496654729009568,
+            "Tohoku": 0.26398031593322824,
+            "Kanto_Shinetu": 0.683658013529077,
+            "Tokai_Hokuriku": 0.5580129490540588,
+            "Kinki": 0.6637608573438432,
+            "Chugoku": 0.4385223561867928,
+            "Shikoku": 0.2906722184499805,
+            "Kyushu": 0.5516330197899719
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0038595313178202534,
+            "Taiwan": 0.029283249818069478,
+            "Korea": 0.02930549523898085,
+            "Southeast_Asia": 0.0023501461067276593,
+            "Pacific_Islands": 0.026916853384203382
+          }
+        },
+        {
+          "week": 39,
+          "active_share": 0.3799666666666667,
+          "mean_control": 0.9963326625641414,
+          "median_allied_casualties_thousands": 158.38251725316093,
+          "median_japanese_military_dead_thousands": 377.83577409456655,
+          "median_japanese_civilian_dead_thousands": 201.23013968204182,
+          "median_food_index": 0.30986208873239407,
+          "median_atomic_strikes": 1.0,
+          "median_conventional_bombing_civilian_dead_thousands": 17.07052015802512,
+          "median_china_manchuria_force_thousands": 1447.130488558523,
+          "median_pacific_seasia_force_thousands": 998.2002123151165,
+          "median_effective_civilian_defense_thousands": 41.363556511674275,
+          "median_suicide_air_stock": 0.5483731276627701,
+          "median_suicide_sea_stock": 0.41178638794986544,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.4836666666666667,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.011816666666666666,
+          "median_nationalist_pressure": 0.4448880077179922,
+          "median_communist_pressure": 0.3769432950577574,
+          "median_regional_damage": {
+            "Hokkaido": 0.15987659248456815,
+            "Tohoku": 0.2712436947460388,
+            "Kanto_Shinetu": 0.7640059223762559,
+            "Tokai_Hokuriku": 0.583972167969919,
+            "Kinki": 0.7036346792569528,
+            "Chugoku": 0.44745815928104116,
+            "Shikoku": 0.2940389024665443,
+            "Kyushu": 0.5637824942399141
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.006555976980574154,
+            "Taiwan": 0.03815166859080324,
+            "Korea": 0.03794391099276265,
+            "Southeast_Asia": 0.003971459898632951,
+            "Pacific_Islands": 0.03462894373036875
+          }
+        },
+        {
+          "week": 52,
+          "active_share": 0.1856,
+          "mean_control": 0.9963776924100898,
+          "median_allied_casualties_thousands": 163.93548694161385,
+          "median_japanese_military_dead_thousands": 386.77849389007065,
+          "median_japanese_civilian_dead_thousands": 232.57646800260073,
+          "median_food_index": 0.30913961872504203,
+          "median_atomic_strikes": 1.0,
+          "median_conventional_bombing_civilian_dead_thousands": 17.074344290672272,
+          "median_china_manchuria_force_thousands": 1409.1337677063757,
+          "median_pacific_seasia_force_thousands": 972.556726852966,
+          "median_effective_civilian_defense_thousands": 36.529268677222674,
+          "median_suicide_air_stock": 0.5474849220389275,
+          "median_suicide_sea_stock": 0.4092943306410969,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.5311166666666667,
+          "median_coronet_progress": 0.035969828105016935,
+          "soviet_hokkaido_entry_share": 0.014866666666666667,
+          "median_nationalist_pressure": 0.46065912200187886,
+          "median_communist_pressure": 0.3905667534552252,
+          "median_regional_damage": {
+            "Hokkaido": 0.16245205368304777,
+            "Tohoku": 0.2753614979476088,
+            "Kanto_Shinetu": 0.7989267941503493,
+            "Tokai_Hokuriku": 0.598054486191282,
+            "Kinki": 0.725172462239652,
+            "Chugoku": 0.4523084410114623,
+            "Shikoku": 0.2959149459304906,
+            "Kyushu": 0.5696672580357904
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.007637796815196954,
+            "Taiwan": 0.04072606636662956,
+            "Korea": 0.04067312191518416,
+            "Southeast_Asia": 0.004853449323505216,
+            "Pacific_Islands": 0.03719167465021535
+          }
+        },
+        {
+          "week": 78,
+          "active_share": 0.029366666666666666,
+          "mean_control": 0.9963779466602315,
+          "median_allied_casualties_thousands": 165.86364792288884,
+          "median_japanese_military_dead_thousands": 390.0291237437362,
+          "median_japanese_civilian_dead_thousands": 273.6305104835778,
+          "median_food_index": 0.30913961872504203,
+          "median_atomic_strikes": 1.0,
+          "median_conventional_bombing_civilian_dead_thousands": 17.074344290672272,
+          "median_china_manchuria_force_thousands": 1408.6138591247359,
+          "median_pacific_seasia_force_thousands": 968.7375340545141,
+          "median_effective_civilian_defense_thousands": 36.33406487363192,
+          "median_suicide_air_stock": 0.5474241195978031,
+          "median_suicide_sea_stock": 0.4090133882423779,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.5432833333333333,
+          "median_coronet_progress": 0.048396206045065594,
+          "soviet_hokkaido_entry_share": 0.016766666666666666,
+          "median_nationalist_pressure": 0.46345058848631127,
+          "median_communist_pressure": 0.3941314300465178,
+          "median_regional_damage": {
+            "Hokkaido": 0.16400690138532392,
+            "Tohoku": 0.27777299337021544,
+            "Kanto_Shinetu": 0.8030569510191519,
+            "Tokai_Hokuriku": 0.6028691274622192,
+            "Kinki": 0.7301698445232884,
+            "Chugoku": 0.45486734015618163,
+            "Shikoku": 0.297160260738104,
+            "Kyushu": 0.572906368280543
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0077222318522603434,
+            "Taiwan": 0.04108391900537965,
+            "Korea": 0.04114455838299386,
+            "Southeast_Asia": 0.005018081731283191,
+            "Pacific_Islands": 0.0377432989032936
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "hundred_million_shattering_extreme",
+      "trajectories": 60000,
+      "weeks": 78,
+      "condition": "Japan has not surrendered before the Olympic decision point",
+      "outcome_distribution": {
+        "coordinated_central_surrender": 0.3816,
+        "central_surrender_with_fragmented_resistance": 0.22506666666666666,
+        "conditional_settlement": 0.16601666666666667,
+        "allied_operational_pause": 0.17775,
+        "humanitarian_collapse": 0.009833333333333333,
+        "coalition_war_continues_at_78_weeks": 0.039733333333333336
+      },
+      "terminal_week": {
+        "p10": 13.0,
+        "median": 36.0,
+        "p90": 66.0,
+        "mean": 37.94168333333333
+      },
+      "allied_kia_thousands": {
+        "p10": 46.53491398592734,
+        "median": 61.72854238425054,
+        "p90": 82.8467799527134,
+        "mean": 63.39918386498483
+      },
+      "allied_total_casualties_thousands": {
+        "p10": 197.96122002478856,
+        "median": 262.2487580873342,
+        "p90": 350.6744733238411,
+        "mean": 269.0992376384664
+      },
+      "japanese_military_dead_thousands": {
+        "p10": 370.9792852847946,
+        "median": 429.1248626688018,
+        "p90": 581.0536795131463,
+        "mean": 453.1423487100262
+      },
+      "japanese_civilian_dead_thousands": {
+        "p10": 181.95743713015392,
+        "median": 270.1046534249159,
+        "p90": 543.8189564173358,
+        "mean": 326.0280863082939
+      },
+      "southern_kyushu_fronts_secured_share": {
+        "p10": 1.0,
+        "median": 1.0,
+        "p90": 1.0,
+        "mean": 0.9971222222222221
+      },
+      "food_index": {
+        "p10": 0.07113243495418109,
+        "median": 0.29369460852199974,
+        "p90": 0.45172504017141757,
+        "mean": 0.2785186063876334
+      },
+      "shipping_damage_index": {
+        "p10": 0.015622102431438687,
+        "median": 0.02214964551740719,
+        "p90": 0.030001812423864592,
+        "mean": 0.02257326236844777
+      },
+      "suicide_air_stock_remaining": {
+        "p10": 0.54176570719172,
+        "median": 0.7855773733774993,
+        "p90": 1.034972149231104,
+        "mean": 0.7874851009577483
+      },
+      "suicide_sea_stock_remaining": {
+        "p10": 0.32832498057896964,
+        "median": 0.6047949839798583,
+        "p90": 0.8951095658348965,
+        "mean": 0.6080861975213053
+      },
+      "combined_fleet_stock_remaining": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 0.05588791025587068,
+        "mean": 0.01649382557189773
+      },
+      "naval_fuel_remaining": {
+        "p10": 0.08617315869296821,
+        "median": 0.13922892232910017,
+        "p90": 0.1881991557867039,
+        "mean": 0.13788343481479146
+      },
+      "additional_atomic_strikes": {
+        "p10": 0.0,
+        "median": 1.0,
+        "p90": 4.0,
+        "mean": 1.6033166666666667
+      },
+      "atomic_civilian_dead_thousands": {
+        "p10": 0.0,
+        "median": 72.01127488460375,
+        "p90": 328.68242858648466,
+        "mean": 120.77780196447058
+      },
+      "conventional_bombing_civilian_dead_thousands": {
+        "p10": 6.2479968291179215,
+        "median": 17.983367607727516,
+        "p90": 33.95144461367351,
+        "mean": 19.08220706523591
+      },
+      "effective_civilian_defense_thousands": {
+        "p10": 0.0,
+        "median": 55.29728823632826,
+        "p90": 107.0880333263614,
+        "mean": 53.55960423734417
+      },
+      "china_manchuria_force_remaining_thousands": {
+        "p10": 929.7532293394248,
+        "median": 1364.3643760273094,
+        "p90": 1770.984307659049,
+        "mean": 1360.243561699994
+      },
+      "pacific_seasia_force_remaining_thousands": {
+        "p10": 720.5783431576319,
+        "median": 948.1508198985784,
+        "p90": 1176.4389488396612,
+        "mean": 950.0680725683632
+      },
+      "coronet_launched_share": 0.4599,
+      "coronet_progress": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 0.4786110614897591,
+        "mean": 0.13735287579718902
+      },
+      "soviet_hokkaido_entry_share": 0.0187,
+      "nationalist_pressure": {
+        "p10": 0.3556144392165018,
+        "median": 0.4726256476198205,
+        "p90": 0.6259647795128727,
+        "mean": 0.4826029754149127
+      },
+      "communist_pressure": {
+        "p10": 0.2918492496797389,
+        "median": 0.4025523506371108,
+        "p90": 0.5424728662873273,
+        "mean": 0.41063299371072376
+      },
+      "chinese_factional_friction": {
+        "p10": 0.2897759492755407,
+        "median": 0.42034774793726737,
+        "p90": 0.5496088469701704,
+        "mean": 0.4199947488236991
+      },
+      "soviet_operational_pressure": {
+        "p10": 0.7405879511241091,
+        "median": 0.8509905580139234,
+        "p90": 0.9701762511784052,
+        "mean": 0.8501158575060742
+      },
+      "commonwealth_pressure": {
+        "p10": 0.542433345729341,
+        "median": 0.6554173641711136,
+        "p90": 0.798068814715401,
+        "mean": 0.663024632525573
+      },
+      "regional_damage_median": {
+        "Hokkaido": 0.16538640680058103,
+        "Tohoku": 0.2782988078808599,
+        "Kanto_Shinetu": 0.7933154612678495,
+        "Tokai_Hokuriku": 0.605348095151237,
+        "Kinki": 0.7317054434687966,
+        "Chugoku": 0.4554891296392272,
+        "Shikoku": 0.29756893181129856,
+        "Kyushu": 0.6179670332442935
+      },
+      "pre_x_regional_damage_median": {
+        "Hokkaido": 0.14026951210009875,
+        "Tohoku": 0.23986828220521633,
+        "Kanto_Shinetu": 0.5298195466131801,
+        "Tokai_Hokuriku": 0.4802991761897474,
+        "Kinki": 0.5499775709060694,
+        "Chugoku": 0.4098086242262602,
+        "Shikoku": 0.2799462645780728,
+        "Kyushu": 0.38950717877217694
+      },
+      "regional_transport_median": {
+        "Hokkaido": 0.6427553656254632,
+        "Tohoku": 0.5944386842698333,
+        "Kanto_Shinetu": 0.45550019175703294,
+        "Tokai_Hokuriku": 0.47941095511173126,
+        "Kinki": 0.44553853300165663,
+        "Chugoku": 0.5132120709511443,
+        "Shikoku": 0.5756612909327516,
+        "Kyushu": 0.5229154410389827
+      },
+      "regional_food_median": {
+        "Hokkaido": 0.3575347742006866,
+        "Tohoku": 0.33828702177969944,
+        "Kanto_Shinetu": 0.2732529537456778,
+        "Tokai_Hokuriku": 0.28874363232236716,
+        "Kinki": 0.27243738264151074,
+        "Chugoku": 0.3062109959196121,
+        "Shikoku": 0.33176853933515366,
+        "Kyushu": 0.30072998382232385
+      },
+      "regional_governance_median": {
+        "Hokkaido": 0.7729480339195154,
+        "Tohoku": 0.7390932759087727,
+        "Kanto_Shinetu": 0.5981623777254286,
+        "Tokai_Hokuriku": 0.6481295844800958,
+        "Kinki": 0.617321800244996,
+        "Chugoku": 0.6829763495794696,
+        "Shikoku": 0.7298407223043575,
+        "Kyushu": 0.5651129908531903
+      },
+      "occupied_infrastructure_damage_median": {
+        "China_Manchuria": 0.010688867719837014,
+        "Taiwan": 0.05332072002357151,
+        "Korea": 0.053020412376170965,
+        "Southeast_Asia": 0.006940519558603716,
+        "Pacific_Islands": 0.04870548813156056
+      },
+      "occupied_civilian_dead_thousands": {
+        "China_Manchuria": {
+          "p10": 0.0006000920420724384,
+          "median": 0.007170402219429734,
+          "p90": 0.02542885509472222,
+          "mean": 0.01043764523955009
+        },
+        "Taiwan": {
+          "p10": 0.0027474036150058026,
+          "median": 0.00870320805734126,
+          "p90": 0.018541266168246927,
+          "mean": 0.009822337331859958
+        },
+        "Korea": {
+          "p10": 0.00510479856452064,
+          "median": 0.0155492139145196,
+          "p90": 0.033480870856811194,
+          "mean": 0.017725325094022203
+        },
+        "Southeast_Asia": {
+          "p10": -0.00021175284774972255,
+          "median": 0.003445433746176104,
+          "p90": 0.013709448134370736,
+          "mean": 0.005270056615920653
+        },
+        "Pacific_Islands": {
+          "p10": 0.001245709728397813,
+          "median": 0.003972525420518657,
+          "p90": 0.008628958779596884,
+          "mean": 0.004532015828922852
+        }
+      },
+      "history": [
+        {
+          "week": 1,
+          "active_share": 1.0,
+          "mean_control": 0.020625417401135538,
+          "median_allied_casualties_thousands": 9.712181796146492,
+          "median_japanese_military_dead_thousands": 14.14718525260766,
+          "median_japanese_civilian_dead_thousands": 2.499227262065788,
+          "median_food_index": 0.5180365887328812,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 0.43870318202287667,
+          "median_china_manchuria_force_thousands": 1981.7281838833082,
+          "median_pacific_seasia_force_thousands": 1241.5525801369686,
+          "median_effective_civilian_defense_thousands": 120.51234367441593,
+          "median_suicide_air_stock": 1.249830887968657,
+          "median_suicide_sea_stock": 1.0566983310502747,
+          "median_combined_fleet_stock": 0.16490565143321195,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.37001928155348557,
+          "median_communist_pressure": 0.31009839074561707,
+          "median_regional_damage": {
+            "Hokkaido": 0.14089333539049181,
+            "Tohoku": 0.240820144605051,
+            "Kanto_Shinetu": 0.5352361884213274,
+            "Tokai_Hokuriku": 0.48327271926620885,
+            "Kinki": 0.5542992857766843,
+            "Chugoku": 0.41088427253252086,
+            "Shikoku": 0.28037583754960815,
+            "Kyushu": 0.3914343899614462
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 1.4830443488078201e-05,
+            "Taiwan": 0.0012940654099024905,
+            "Korea": 0.0013868354136303137,
+            "Southeast_Asia": 9.615972222284872e-06,
+            "Pacific_Islands": 0.0012325643444264412
+          }
+        },
+        {
+          "week": 4,
+          "active_share": 1.0,
+          "mean_control": 0.08734795279360685,
+          "median_allied_casualties_thousands": 38.40118115710008,
+          "median_japanese_military_dead_thousands": 56.684403686444554,
+          "median_japanese_civilian_dead_thousands": 14.964047710440365,
+          "median_food_index": 0.5051672308828195,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 1.7959123358415818,
+          "median_china_manchuria_force_thousands": 1923.309163979686,
+          "median_pacific_seasia_force_thousands": 1216.3153308052467,
+          "median_effective_civilian_defense_thousands": 117.41336548470323,
+          "median_suicide_air_stock": 1.0880313687276306,
+          "median_suicide_sea_stock": 0.9285502386769002,
+          "median_combined_fleet_stock": 0.09110902204915154,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.37095052267652195,
+          "median_communist_pressure": 0.3109222826099276,
+          "median_regional_damage": {
+            "Hokkaido": 0.1427254832058408,
+            "Tohoku": 0.24356832784815077,
+            "Kanto_Shinetu": 0.5514726627094915,
+            "Tokai_Hokuriku": 0.49244366663500094,
+            "Kinki": 0.567372666306415,
+            "Chugoku": 0.41427863124393705,
+            "Shikoku": 0.2817013119202773,
+            "Kyushu": 0.41226108451077637
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.00016007418156062617,
+            "Taiwan": 0.005398948619673558,
+            "Korea": 0.00572306276407337,
+            "Southeast_Asia": 0.00010117189544004912,
+            "Pacific_Islands": 0.005127203233595135
+          }
+        },
+        {
+          "week": 8,
+          "active_share": 0.9595166666666667,
+          "mean_control": 0.19009519478326814,
+          "median_allied_casualties_thousands": 74.91934683017381,
+          "median_japanese_military_dead_thousands": 113.45103879771136,
+          "median_japanese_civilian_dead_thousands": 32.54244332131903,
+          "median_food_index": 0.4840921252606354,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 3.645304437098697,
+          "median_china_manchuria_force_thousands": 1848.8107804391625,
+          "median_pacific_seasia_force_thousands": 1183.147504286263,
+          "median_effective_civilian_defense_thousands": 112.13662243802236,
+          "median_suicide_air_stock": 0.9535126303924232,
+          "median_suicide_sea_stock": 0.8095537545261189,
+          "median_combined_fleet_stock": 0.03921853410277185,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.3744696142215478,
+          "median_communist_pressure": 0.3138641740753544,
+          "median_regional_damage": {
+            "Hokkaido": 0.14520780313946652,
+            "Tohoku": 0.24745683986422162,
+            "Kanto_Shinetu": 0.5733687892316077,
+            "Tokai_Hokuriku": 0.50469643818225,
+            "Kinki": 0.5848066262066896,
+            "Chugoku": 0.41873777457849515,
+            "Shikoku": 0.28343526343840686,
+            "Kyushu": 0.4418490935393646
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0005765179866071083,
+            "Taiwan": 0.010980763902037513,
+            "Korea": 0.011508953504262932,
+            "Southeast_Asia": 0.0003624704047798594,
+            "Pacific_Islands": 0.010386399650146648
+          }
+        },
+        {
+          "week": 13,
+          "active_share": 0.8999833333333334,
+          "mean_control": 0.345405992830393,
+          "median_allied_casualties_thousands": 117.58759101244833,
+          "median_japanese_military_dead_thousands": 184.45602662672042,
+          "median_japanese_civilian_dead_thousands": 55.13962187760303,
+          "median_food_index": 0.45565838330618497,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 6.00511600734143,
+          "median_china_manchuria_force_thousands": 1762.6062158877844,
+          "median_pacific_seasia_force_thousands": 1144.1395938040405,
+          "median_effective_civilian_defense_thousands": 104.75149758382742,
+          "median_suicide_air_stock": 0.8649485225902372,
+          "median_suicide_sea_stock": 0.7181276515573451,
+          "median_combined_fleet_stock": 0.011443757246029338,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.38171372314346264,
+          "median_communist_pressure": 0.3204275680192633,
+          "median_regional_damage": {
+            "Hokkaido": 0.14820519325450382,
+            "Tohoku": 0.2520252145664543,
+            "Kanto_Shinetu": 0.6006401018371118,
+            "Tokai_Hokuriku": 0.5196853862988422,
+            "Kinki": 0.6060990999912523,
+            "Chugoku": 0.4243352508474091,
+            "Shikoku": 0.2856003358870424,
+            "Kyushu": 0.47861778325937265
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0013969687627498838,
+            "Taiwan": 0.017978315380571437,
+            "Korea": 0.018575260989312805,
+            "Southeast_Asia": 0.000875383700430523,
+            "Pacific_Islands": 0.016898064045751317
+          }
+        },
+        {
+          "week": 26,
+          "active_share": 0.6877833333333333,
+          "mean_control": 0.8229388550310263,
+          "median_allied_casualties_thousands": 207.13533165546303,
+          "median_japanese_military_dead_thousands": 347.4790178335928,
+          "median_japanese_civilian_dead_thousands": 149.9699536797046,
+          "median_food_index": 0.37347699328449285,
+          "median_atomic_strikes": 1.0,
+          "median_conventional_bombing_civilian_dead_thousands": 12.310417281474628,
+          "median_china_manchuria_force_thousands": 1569.3317656245918,
+          "median_pacific_seasia_force_thousands": 1055.3497100864442,
+          "median_effective_civilian_defense_thousands": 84.14302064738857,
+          "median_suicide_air_stock": 0.7956960274571941,
+          "median_suicide_sea_stock": 0.6262676467808135,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.058583333333333334,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.00635,
+          "median_nationalist_pressure": 0.41298055445596693,
+          "median_communist_pressure": 0.3487307579295883,
+          "median_regional_damage": {
+            "Hokkaido": 0.15524667613460896,
+            "Tohoku": 0.26288360865699023,
+            "Kanto_Shinetu": 0.6678029824968094,
+            "Tokai_Hokuriku": 0.5549524687601518,
+            "Kinki": 0.6577032871331427,
+            "Chugoku": 0.43735217496473267,
+            "Shikoku": 0.2905309282954319,
+            "Kyushu": 0.5670186231205987
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.004738468744907151,
+            "Taiwan": 0.03538210319045713,
+            "Korea": 0.03551786155850077,
+            "Southeast_Asia": 0.002853770905742791,
+            "Pacific_Islands": 0.03265018228667145
+          }
+        },
+        {
+          "week": 39,
+          "active_share": 0.43455,
+          "mean_control": 0.9750198292892556,
+          "median_allied_casualties_thousands": 245.43498147485815,
+          "median_japanese_military_dead_thousands": 406.11991109661835,
+          "median_japanese_civilian_dead_thousands": 197.89546170073572,
+          "median_food_index": 0.30177781374690543,
+          "median_atomic_strikes": 1.0,
+          "median_conventional_bombing_civilian_dead_thousands": 17.70524579634634,
+          "median_china_manchuria_force_thousands": 1424.60211467736,
+          "median_pacific_seasia_force_thousands": 989.5167844075805,
+          "median_effective_civilian_defense_thousands": 66.41854199080831,
+          "median_suicide_air_stock": 0.786687880401846,
+          "median_suicide_sea_stock": 0.6080799638818013,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.34026666666666666,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0123,
+          "median_nationalist_pressure": 0.44883971502686326,
+          "median_communist_pressure": 0.37975227572868864,
+          "median_regional_damage": {
+            "Hokkaido": 0.16036681934466263,
+            "Tohoku": 0.27082977651871754,
+            "Kanto_Shinetu": 0.740122714783686,
+            "Tokai_Hokuriku": 0.581977888048953,
+            "Kinki": 0.6989603995638669,
+            "Chugoku": 0.4465361457789042,
+            "Shikoku": 0.2940660026682212,
+            "Kyushu": 0.6022519016375047
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.008464357375420712,
+            "Taiwan": 0.04776677399441151,
+            "Korea": 0.04753889373158465,
+            "Southeast_Asia": 0.005090158008268413,
+            "Pacific_Islands": 0.043363233536142715
+          }
+        },
+        {
+          "week": 52,
+          "active_share": 0.22921666666666668,
+          "mean_control": 0.991724064846817,
+          "median_allied_casualties_thousands": 257.82751351144293,
+          "median_japanese_military_dead_thousands": 423.08798957178675,
+          "median_japanese_civilian_dead_thousands": 226.64581464897816,
+          "median_food_index": 0.29369460852199974,
+          "median_atomic_strikes": 1.0,
+          "median_conventional_bombing_civilian_dead_thousands": 17.983367607727516,
+          "median_china_manchuria_force_thousands": 1366.570503444742,
+          "median_pacific_seasia_force_thousands": 955.3609721508251,
+          "median_effective_civilian_defense_thousands": 56.56094133436857,
+          "median_suicide_air_stock": 0.7856755972144743,
+          "median_suicide_sea_stock": 0.6053570853848811,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.43345,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.016066666666666667,
+          "median_nationalist_pressure": 0.46776934150794275,
+          "median_communist_pressure": 0.3972402092810366,
+          "median_regional_damage": {
+            "Hokkaido": 0.16343829622129596,
+            "Tohoku": 0.2753474783102985,
+            "Kanto_Shinetu": 0.7850560227011256,
+            "Tokai_Hokuriku": 0.5981985114877474,
+            "Kinki": 0.7236977309097292,
+            "Chugoku": 0.4521059525989284,
+            "Shikoku": 0.2961519236134402,
+            "Kyushu": 0.6126698170178277
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.010429520951789855,
+            "Taiwan": 0.05247490518131362,
+            "Korea": 0.05206967310734928,
+            "Southeast_Asia": 0.00652432467134492,
+            "Pacific_Islands": 0.04764959538256892
+          }
+        },
+        {
+          "week": 78,
+          "active_share": 0.039733333333333336,
+          "mean_control": 0.9945660733674939,
+          "median_allied_casualties_thousands": 262.2487580873342,
+          "median_japanese_military_dead_thousands": 429.1248626688018,
+          "median_japanese_civilian_dead_thousands": 270.1046534249159,
+          "median_food_index": 0.29369460852199974,
+          "median_atomic_strikes": 1.0,
+          "median_conventional_bombing_civilian_dead_thousands": 17.983367607727516,
+          "median_china_manchuria_force_thousands": 1364.3643760273094,
+          "median_pacific_seasia_force_thousands": 948.1508198985784,
+          "median_effective_civilian_defense_thousands": 55.29728823632826,
+          "median_suicide_air_stock": 0.7855773733774993,
+          "median_suicide_sea_stock": 0.6047949839798583,
+          "median_combined_fleet_stock": 0.0,
+          "coronet_launched_share": 0.4599,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0187,
+          "median_nationalist_pressure": 0.4726256476198205,
+          "median_communist_pressure": 0.4025523506371108,
+          "median_regional_damage": {
+            "Hokkaido": 0.16538640680058103,
+            "Tohoku": 0.2782988078808599,
+            "Kanto_Shinetu": 0.7933154612678495,
+            "Tokai_Hokuriku": 0.605348095151237,
+            "Kinki": 0.7317054434687966,
+            "Chugoku": 0.4554891296392272,
+            "Shikoku": 0.29756893181129856,
+            "Kyushu": 0.6179670332442935
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.010688867719837014,
+            "Taiwan": 0.05332072002357151,
+            "Korea": 0.053020412376170965,
+            "Southeast_Asia": 0.006940519558603716,
+            "Pacific_Islands": 0.04870548813156056
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "blockade_delay_comparator",
+      "trajectories": 60000,
+      "weeks": 78,
+      "condition": "Japan has not surrendered before the Olympic decision point",
+      "outcome_distribution": {
+        "coordinated_central_surrender": 0.44406666666666667,
+        "central_surrender_with_fragmented_resistance": 0.20758333333333334,
+        "conditional_settlement": 0.20466666666666666,
+        "allied_operational_pause": 0.06395,
+        "humanitarian_collapse": 0.012483333333333334,
+        "coalition_war_continues_at_78_weeks": 0.06725
+      },
+      "terminal_week": {
+        "p10": 18.0,
+        "median": 43.0,
+        "p90": 73.0,
+        "mean": 43.89243333333334
+      },
+      "allied_kia_thousands": {
+        "p10": 24.798690775185065,
+        "median": 33.02835658027284,
+        "p90": 48.58793298488445,
+        "mean": 35.04178969183097
+      },
+      "allied_total_casualties_thousands": {
+        "p10": 105.52177496589351,
+        "median": 140.36370907062746,
+        "p90": 205.29599148834822,
+        "mean": 148.64025253296003
+      },
+      "japanese_military_dead_thousands": {
+        "p10": 321.46147477261405,
+        "median": 360.7413231391211,
+        "p90": 530.7261974454286,
+        "mean": 394.8351283720036
+      },
+      "japanese_civilian_dead_thousands": {
+        "p10": 152.7372130036671,
+        "median": 193.0796397678161,
+        "p90": 442.3188583037238,
+        "mean": 245.05363047321146
+      },
+      "southern_kyushu_fronts_secured_share": {
+        "p10": 1.0,
+        "median": 1.0,
+        "p90": 1.0,
+        "mean": 0.9999777777777777
+      },
+      "food_index": {
+        "p10": 0.004182479170674967,
+        "median": 0.21987267334104826,
+        "p90": 0.4142204912558402,
+        "mean": 0.21679858826881743
+      },
+      "shipping_damage_index": {
+        "p10": 0.0,
+        "median": 0.012583671883718048,
+        "p90": 0.01775363827883879,
+        "mean": 0.011867127278099259
+      },
+      "suicide_air_stock_remaining": {
+        "p10": 0.20005878227486712,
+        "median": 0.3855488827347987,
+        "p90": 0.7799352973141119,
+        "mean": 0.42982827166210913
+      },
+      "suicide_sea_stock_remaining": {
+        "p10": 0.06798109037110163,
+        "median": 0.28489261935636506,
+        "p90": 0.6581078482185666,
+        "mean": 0.3237829541919481
+      },
+      "combined_fleet_stock_remaining": {
+        "p10": 0.0,
+        "median": 0.006821777974683562,
+        "p90": 0.15554849729068349,
+        "mean": 0.04128806348870064
+      },
+      "naval_fuel_remaining": {
+        "p10": 0.09177590431173385,
+        "median": 0.14315892434573724,
+        "p90": 0.1919181531280008,
+        "mean": 0.14226134899738113
+      },
+      "additional_atomic_strikes": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 3.0,
+        "mean": 0.8775666666666667
+      },
+      "atomic_civilian_dead_thousands": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 262.2888224193075,
+        "mean": 66.3082591984599
+      },
+      "conventional_bombing_civilian_dead_thousands": {
+        "p10": 8.904047064509948,
+        "median": 22.701023283671944,
+        "p90": 40.387666906173315,
+        "mean": 23.545553859953007
+      },
+      "effective_civilian_defense_thousands": {
+        "p10": 0.0,
+        "median": 24.69990792150228,
+        "p90": 61.47666599507898,
+        "mean": 27.120105739055305
+      },
+      "china_manchuria_force_remaining_thousands": {
+        "p10": 866.4212198646312,
+        "median": 1257.224942098198,
+        "p90": 1690.451786108733,
+        "mean": 1271.1625063174765
+      },
+      "pacific_seasia_force_remaining_thousands": {
+        "p10": 695.272339178346,
+        "median": 904.7424340047742,
+        "p90": 1141.4737754913342,
+        "mean": 913.4088641684431
+      },
+      "coronet_launched_share": 0.41838333333333333,
+      "coronet_progress": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 0.4793586812492089,
+        "mean": 0.1308207110352446
+      },
+      "soviet_hokkaido_entry_share": 0.021466666666666665,
+      "nationalist_pressure": {
+        "p10": 0.3731534754989802,
+        "median": 0.4966788077046931,
+        "p90": 0.6369562896726007,
+        "mean": 0.5012993960548865
+      },
+      "communist_pressure": {
+        "p10": 0.3064890403551626,
+        "median": 0.4233693869468418,
+        "p90": 0.5536692319012826,
+        "mean": 0.42694719500009526
+      },
+      "chinese_factional_friction": {
+        "p10": 0.29153075813431173,
+        "median": 0.42090246549285426,
+        "p90": 0.5497989914268744,
+        "mean": 0.4208199164198333
+      },
+      "soviet_operational_pressure": {
+        "p10": 0.7542196357991361,
+        "median": 0.8649039686678675,
+        "p90": 0.9796716322398359,
+        "mean": 0.8619816182851459
+      },
+      "commonwealth_pressure": {
+        "p10": 0.5577061400509824,
+        "median": 0.6766805456125369,
+        "p90": 0.8088532688372642,
+        "mean": 0.6798401772809253
+      },
+      "regional_damage_median": {
+        "Hokkaido": 0.16911906035365692,
+        "Tohoku": 0.2840558997395729,
+        "Kanto_Shinetu": 0.8070723479322464,
+        "Tokai_Hokuriku": 0.6221340978387033,
+        "Kinki": 0.7540097093308498,
+        "Chugoku": 0.46211906592406604,
+        "Shikoku": 0.30021854251698055,
+        "Kyushu": 0.5715793970482477
+      },
+      "pre_x_regional_damage_median": {
+        "Hokkaido": 0.13989505982297612,
+        "Tohoku": 0.24005807314796668,
+        "Kanto_Shinetu": 0.5304176609517903,
+        "Tokai_Hokuriku": 0.480037073380573,
+        "Kinki": 0.5502317939214905,
+        "Chugoku": 0.40999015840754405,
+        "Shikoku": 0.2800558224709584,
+        "Kyushu": 0.389864120305945
+      },
+      "regional_transport_median": {
+        "Hokkaido": 0.6182618848673005,
+        "Tohoku": 0.5703463873590398,
+        "Kanto_Shinetu": 0.431412429832967,
+        "Tokai_Hokuriku": 0.45490349962808696,
+        "Kinki": 0.4216139363965087,
+        "Chugoku": 0.48891511128163534,
+        "Shikoku": 0.5508882881718014,
+        "Kyushu": 0.49865496044922286
+      },
+      "regional_food_median": {
+        "Hokkaido": 0.28364872551936626,
+        "Tohoku": 0.2646110297064538,
+        "Kanto_Shinetu": 0.19961291731445757,
+        "Tokai_Hokuriku": 0.2151791294591456,
+        "Kinki": 0.19880586586047092,
+        "Chugoku": 0.23340159859358067,
+        "Shikoku": 0.25875758395458875,
+        "Kyushu": 0.23114763019506196
+      },
+      "regional_governance_median": {
+        "Hokkaido": 0.7613044585736419,
+        "Tohoku": 0.7258111219138108,
+        "Kanto_Shinetu": 0.5914259353370238,
+        "Tokai_Hokuriku": 0.6326220822548397,
+        "Kinki": 0.601763803500367,
+        "Chugoku": 0.6661298622576268,
+        "Shikoku": 0.7146423285403858,
+        "Kyushu": 0.5904817623770788
+      },
+      "occupied_infrastructure_damage_median": {
+        "China_Manchuria": 0.012014051326601678,
+        "Taiwan": 0.04937913100888837,
+        "Korea": 0.05137290550834365,
+        "Southeast_Asia": 0.007678340560145993,
+        "Pacific_Islands": 0.04541269411302375
+      },
+      "occupied_civilian_dead_thousands": {
+        "China_Manchuria": {
+          "p10": 0.0009737388252523488,
+          "median": 0.00810995044334227,
+          "p90": 0.024053884374071955,
+          "mean": 0.010626855473557448
+        },
+        "Taiwan": {
+          "p10": 0.0027781187531543713,
+          "median": 0.008065418700299094,
+          "p90": 0.016358628155200942,
+          "mean": 0.008943182610861534
+        },
+        "Korea": {
+          "p10": 0.00532433753995575,
+          "median": 0.015088297732917592,
+          "p90": 0.030552013219915797,
+          "mean": 0.016753365605145766
+        },
+        "Southeast_Asia": {
+          "p10": 3.208863602330246e-06,
+          "median": 0.0038427351365238295,
+          "p90": 0.012831056638340508,
+          "mean": 0.005282127402627106
+        },
+        "Pacific_Islands": {
+          "p10": 0.0012561386772666373,
+          "median": 0.003704101873820481,
+          "p90": 0.007625683204879224,
+          "mean": 0.004144204150901806
+        }
+      },
+      "history": [
+        {
+          "week": 1,
+          "active_share": 1.0,
+          "mean_control": 0.0,
+          "median_allied_casualties_thousands": 0.0,
+          "median_japanese_military_dead_thousands": 0.0,
+          "median_japanese_civilian_dead_thousands": 1.4773945141258469,
+          "median_food_index": 0.5171933027125206,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 0.4911168294942402,
+          "median_china_manchuria_force_thousands": 1980.9067011732461,
+          "median_pacific_seasia_force_thousands": 1241.6257968129826,
+          "median_effective_civilian_defense_thousands": 78.35012007277479,
+          "median_suicide_air_stock": 0.8811067884422323,
+          "median_suicide_sea_stock": 0.7394551750185496,
+          "median_combined_fleet_stock": 0.19969408715007655,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.3700320345559207,
+          "median_communist_pressure": 0.30965766137604533,
+          "median_regional_damage": {
+            "Hokkaido": 0.14051475430993854,
+            "Tohoku": 0.2410162757462747,
+            "Kanto_Shinetu": 0.5359289242790435,
+            "Tokai_Hokuriku": 0.48310347928462444,
+            "Kinki": 0.5545879364631114,
+            "Chugoku": 0.4111101592743558,
+            "Shikoku": 0.28048566350243437,
+            "Kyushu": 0.3912274448867337
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 1.2552530534125877e-05,
+            "Taiwan": 0.0010395461605881015,
+            "Korea": 0.001111713410845339,
+            "Southeast_Asia": 7.694860198248563e-06,
+            "Pacific_Islands": 0.0009880852468119091
+          }
+        },
+        {
+          "week": 4,
+          "active_share": 1.0,
+          "mean_control": 0.0,
+          "median_allied_casualties_thousands": 0.0,
+          "median_japanese_military_dead_thousands": 0.0,
+          "median_japanese_civilian_dead_thousands": 6.00166767141176,
+          "median_food_index": 0.503316617425476,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 1.99077207484927,
+          "median_china_manchuria_force_thousands": 1922.550651113128,
+          "median_pacific_seasia_force_thousands": 1216.517867929559,
+          "median_effective_civilian_defense_thousands": 75.83976866021766,
+          "median_suicide_air_stock": 0.8811067884422323,
+          "median_suicide_sea_stock": 0.7394551750185496,
+          "median_combined_fleet_stock": 0.19969408715007655,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.37094276945467797,
+          "median_communist_pressure": 0.3103572861852709,
+          "median_regional_damage": {
+            "Hokkaido": 0.1423520877465414,
+            "Tohoku": 0.2438753854767906,
+            "Kanto_Shinetu": 0.5523224502266738,
+            "Tokai_Hokuriku": 0.49216700598686836,
+            "Kinki": 0.5677410797115348,
+            "Chugoku": 0.4145439446601856,
+            "Shikoku": 0.28178359524653873,
+            "Kyushu": 0.39545849922093035
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0001306973956491372,
+            "Taiwan": 0.004280482083234586,
+            "Korea": 0.004573014820033359,
+            "Southeast_Asia": 8.003800084670378e-05,
+            "Pacific_Islands": 0.004071578182141481
+          }
+        },
+        {
+          "week": 8,
+          "active_share": 0.9707333333333333,
+          "mean_control": 0.0,
+          "median_allied_casualties_thousands": 0.0,
+          "median_japanese_military_dead_thousands": 0.0,
+          "median_japanese_civilian_dead_thousands": 12.150168996994434,
+          "median_food_index": 0.48034164183672545,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 3.9878722730177367,
+          "median_china_manchuria_force_thousands": 1847.6282063934232,
+          "median_pacific_seasia_force_thousands": 1184.0025720075644,
+          "median_effective_civilian_defense_thousands": 71.92525066958336,
+          "median_suicide_air_stock": 0.8811067884422323,
+          "median_suicide_sea_stock": 0.7394551750185496,
+          "median_combined_fleet_stock": 0.19969408715007655,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.37425512469487504,
+          "median_communist_pressure": 0.3132919745117668,
+          "median_regional_damage": {
+            "Hokkaido": 0.14476836982410857,
+            "Tohoku": 0.24769710009269436,
+            "Kanto_Shinetu": 0.573845935691857,
+            "Tokai_Hokuriku": 0.5043213520005652,
+            "Kinki": 0.5847794996737787,
+            "Chugoku": 0.4190116051559293,
+            "Shikoku": 0.2835088747145491,
+            "Kyushu": 0.40095272136587623
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.0004674552997896026,
+            "Taiwan": 0.00860769754200133,
+            "Korea": 0.00919640243361848,
+            "Southeast_Asia": 0.0002867792103080759,
+            "Pacific_Islands": 0.00818521735618002
+          }
+        },
+        {
+          "week": 13,
+          "active_share": 0.9334833333333333,
+          "mean_control": 0.0,
+          "median_allied_casualties_thousands": 0.0,
+          "median_japanese_military_dead_thousands": 0.0,
+          "median_japanese_civilian_dead_thousands": 20.03201505051596,
+          "median_food_index": 0.448905780657354,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 6.465608492042104,
+          "median_china_manchuria_force_thousands": 1760.1706000410413,
+          "median_pacific_seasia_force_thousands": 1145.5240422016152,
+          "median_effective_civilian_defense_thousands": 66.66590122807878,
+          "median_suicide_air_stock": 0.8811067884422323,
+          "median_suicide_sea_stock": 0.7394551750185496,
+          "median_combined_fleet_stock": 0.19969408715007655,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0,
+          "median_nationalist_pressure": 0.38135504081593435,
+          "median_communist_pressure": 0.31964617610468415,
+          "median_regional_damage": {
+            "Hokkaido": 0.1477553575087668,
+            "Tohoku": 0.25222937479903984,
+            "Kanto_Shinetu": 0.6001028899724321,
+            "Tokai_Hokuriku": 0.5188903453664089,
+            "Kinki": 0.6056595857745414,
+            "Chugoku": 0.42441472066018254,
+            "Shikoku": 0.28559371411707424,
+            "Kyushu": 0.4076260707480744
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.001143161389327817,
+            "Taiwan": 0.013975677047186481,
+            "Korea": 0.014910089319147418,
+            "Southeast_Asia": 0.0007016056492097501,
+            "Pacific_Islands": 0.013261157129699656
+          }
+        },
+        {
+          "week": 26,
+          "active_share": 0.8063833333333333,
+          "mean_control": 0.34375526457520084,
+          "median_allied_casualties_thousands": 52.84878683948995,
+          "median_japanese_military_dead_thousands": 139.30145513383502,
+          "median_japanese_civilian_dead_thousands": 60.117685880595346,
+          "median_food_index": 0.35654776239379843,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 12.9049912322015,
+          "median_china_manchuria_force_thousands": 1552.9083830534128,
+          "median_pacific_seasia_force_thousands": 1053.5468985768862,
+          "median_effective_civilian_defense_thousands": 51.70310263422834,
+          "median_suicide_air_stock": 0.5408439701242603,
+          "median_suicide_sea_stock": 0.4674163198143726,
+          "median_combined_fleet_stock": 0.04829393179587405,
+          "coronet_launched_share": 0.0,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.0063,
+          "median_nationalist_pressure": 0.4138376105888618,
+          "median_communist_pressure": 0.3487585104789709,
+          "median_regional_damage": {
+            "Hokkaido": 0.15490475489995797,
+            "Tohoku": 0.2632193143526263,
+            "Kanto_Shinetu": 0.6651216712868739,
+            "Tokai_Hokuriku": 0.5544145500823096,
+            "Kinki": 0.6565552571232791,
+            "Chugoku": 0.4375831566555437,
+            "Shikoku": 0.2905973914716778,
+            "Kyushu": 0.4706852030563517
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.004091397561358326,
+            "Taiwan": 0.02767677269691568,
+            "Korea": 0.029407116726314665,
+            "Southeast_Asia": 0.0024669586439300633,
+            "Pacific_Islands": 0.026027356833335187
+          }
+        },
+        {
+          "week": 39,
+          "active_share": 0.57245,
+          "mean_control": 0.9546252208424011,
+          "median_allied_casualties_thousands": 122.14336522480068,
+          "median_japanese_military_dead_thousands": 333.931605834636,
+          "median_japanese_civilian_dead_thousands": 109.48016498473766,
+          "median_food_index": 0.2660667598552605,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 19.38575819843582,
+          "median_china_manchuria_force_thousands": 1382.0883099860835,
+          "median_pacific_seasia_force_thousands": 976.1544237219302,
+          "median_effective_civilian_defense_thousands": 37.38103091610242,
+          "median_suicide_air_stock": 0.4032963382447148,
+          "median_suicide_sea_stock": 0.31688364733376384,
+          "median_combined_fleet_stock": 0.009422158966340875,
+          "coronet_launched_share": 0.14003333333333334,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.013183333333333333,
+          "median_nationalist_pressure": 0.455711413462092,
+          "median_communist_pressure": 0.38594404030896223,
+          "median_regional_damage": {
+            "Hokkaido": 0.1613360641699124,
+            "Tohoku": 0.27281196551449355,
+            "Kanto_Shinetu": 0.7295616574742405,
+            "Tokai_Hokuriku": 0.5863991176041425,
+            "Kinki": 0.7046553147239122,
+            "Chugoku": 0.44892864242776515,
+            "Shikoku": 0.2949221938586589,
+            "Kyushu": 0.5514756671085902
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.008022994264042068,
+            "Taiwan": 0.039784512059696756,
+            "Korea": 0.04180704779243408,
+            "Southeast_Asia": 0.0047978670529956165,
+            "Pacific_Islands": 0.03697479593534035
+          }
+        },
+        {
+          "week": 52,
+          "active_share": 0.3263,
+          "mean_control": 0.9960062510306223,
+          "median_allied_casualties_thousands": 134.5372597659197,
+          "median_japanese_military_dead_thousands": 354.8968309910059,
+          "median_japanese_civilian_dead_thousands": 140.91370196652,
+          "median_food_index": 0.21987267334104826,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 22.699544317833055,
+          "median_china_manchuria_force_thousands": 1276.584425253961,
+          "median_pacific_seasia_force_thousands": 925.1524355701703,
+          "median_effective_civilian_defense_thousands": 26.958720070663013,
+          "median_suicide_air_stock": 0.3871523975025567,
+          "median_suicide_sea_stock": 0.28939899808362496,
+          "median_combined_fleet_stock": 0.006929371294495055,
+          "coronet_launched_share": 0.35463333333333336,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.017533333333333335,
+          "median_nationalist_pressure": 0.4836708569363405,
+          "median_communist_pressure": 0.4107789427364186,
+          "median_regional_damage": {
+            "Hokkaido": 0.16581516055800316,
+            "Tohoku": 0.27923109250153755,
+            "Kanto_Shinetu": 0.7900596866307903,
+            "Tokai_Hokuriku": 0.6095766029032541,
+            "Kinki": 0.7392913653294999,
+            "Chugoku": 0.45646796903583325,
+            "Shikoku": 0.29788141573713034,
+            "Kyushu": 0.5648071886974819
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.01100407207391471,
+            "Taiwan": 0.04701515322696898,
+            "Korea": 0.048839993533732806,
+            "Southeast_Asia": 0.006685668517048845,
+            "Pacific_Islands": 0.04306963730738855
+          }
+        },
+        {
+          "week": 78,
+          "active_share": 0.06725,
+          "mean_control": 0.9964314040453086,
+          "median_allied_casualties_thousands": 140.36370907062746,
+          "median_japanese_military_dead_thousands": 360.7413231391211,
+          "median_japanese_civilian_dead_thousands": 193.0796397678161,
+          "median_food_index": 0.21987267334104826,
+          "median_atomic_strikes": 0.0,
+          "median_conventional_bombing_civilian_dead_thousands": 22.701023283671944,
+          "median_china_manchuria_force_thousands": 1257.224942098198,
+          "median_pacific_seasia_force_thousands": 904.7424340047742,
+          "median_effective_civilian_defense_thousands": 24.69990792150228,
+          "median_suicide_air_stock": 0.3855488827347987,
+          "median_suicide_sea_stock": 0.28489261935636506,
+          "median_combined_fleet_stock": 0.006821777974683562,
+          "coronet_launched_share": 0.41838333333333333,
+          "median_coronet_progress": 0.0,
+          "soviet_hokkaido_entry_share": 0.021466666666666665,
+          "median_nationalist_pressure": 0.4966788077046931,
+          "median_communist_pressure": 0.4233693869468418,
+          "median_regional_damage": {
+            "Hokkaido": 0.16911906035365692,
+            "Tohoku": 0.2840558997395729,
+            "Kanto_Shinetu": 0.8070723479322464,
+            "Tokai_Hokuriku": 0.6221340978387033,
+            "Kinki": 0.7540097093308498,
+            "Chugoku": 0.46211906592406604,
+            "Shikoku": 0.30021854251698055,
+            "Kyushu": 0.5715793970482477
+          },
+          "median_occupied_infrastructure_damage": {
+            "China_Manchuria": 0.012014051326601678,
+            "Taiwan": 0.04937913100888837,
+            "Korea": 0.05137290550834365,
+            "Southeast_Asia": 0.007678340560145993,
+            "Pacific_Islands": 0.04541269411302375
+          }
+        }
+      ]
+    }
+  ]
+}

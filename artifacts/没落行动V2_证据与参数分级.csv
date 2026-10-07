@@ -1,0 +1,19 @@
+﻿parameter,value,qualifier,evidence_class,confidence,source
+olympic_initial_assault_force,582500,,physical/planning,A,NHHC H-Gram 057
+planned_total_us_force_kyushu,766700,,physical/planning,A,NHHC H-Gram 057
+japanese_force_kyushu_august,900000,over,observed,A,NHHC H-Gram 057
+planned_vessels,3033,,planning,A,US Navy official report
+medical_estimate_60d_total_casualties,176663,,historical estimate,B,US Army Medical Department history
+medical_estimate_120d_total_casualties,394859,,historical estimate,B,US Army Medical Department history
+medical_estimate_120d_battle_casualties,125935,,historical estimate,B,US Army Medical Department history
+okinawa_days,91,,observed,A,
+okinawa_us_combat_casualties,49151,,observed,A,
+okinawa_us_nonbattle_casualties,26000,over,observed,A,
+okinawa_japanese_military_dead,110000,over,observed,A,
+okinawa_civilian_dead,82000,over,observed,B,
+okinawa_ships_sunk,36,,observed,A,
+okinawa_ships_damaged,368,,observed,A,
+louise_typhoon_planning_delay_days,45,,post-event estimate,B,
+starvation_mines_laid,12135,,observed,A,
+starvation_ships_sunk_or_badly_damaged,670,,observed,B,
+starvation_tonnage_million,1.25,,observed,B,
